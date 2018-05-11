@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title><!-- Lorem Ipsum --></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
+	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+	<!-- Smooth scrolling when links are clicked -->
+	<script>
+		$(document).ready(function() {
+			// Animates fade in/out the scroll-back-to-the-top arrow 
+			$(window).scroll(function(){
+				if ($(document).scrollTop() < 200) {
+					// $(".up-arrow").css("opacity","1");
+					$(".up-arrow").stop().animate({opacity: '0'},150);
+				} else {
+					// $(".up-arrow").css("opacity","0");
+					$(".up-arrow").stop().animate({opacity: '1'},150);
+				}
+			});
+
+			$("a").click(function(){
+				// Function defining smooth scrolling
+				$("html, body").animate({
+					scrollTop: $(this.hash).offset().top
+      				}, 800, function(){
+				});
+			});
+			
+			// Change scroll-back-to-the-top arrow's color when clicked
+			$(".up-arrow").on({
+				mousedown: function(){
+					$(this).css("color", "white");
+				},
+				mouseup: function(){
+					$(this).css("color", "#989898");
+				}
+			});
+		
+			$(".submit").click()
+
+		});
+	</script>
+</head>
+
+<body>
+	<header id="banner">
+		<!-- Name and image? -->
+		<h1 class="name">Muxin Li</h1>
+	</header>
+
+	<nav>
+	<!-- Navigation bar -->
+		<ul class="nav nav-pills">
+		    <li class="nav-item">
+		    	<a class="nav-link active" href="#about">Home</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a class="nav-link" href="#projects">Projects</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a class="nav-link" href="#contact">Contact</a>
+		    </li>
+		</ul>
+	</nav>
+
+	<!-- About section -->
+	<div class="main-center">
+		<article>
+				<h2 id="h2-top">About</h2>
+			<div class="row">
+				<div class="about">
+					<p>Product manager by day, software developer by night. I'm learning how to make progressive web apps powered by machine learning. You can follow my progress on Twitter <a href="https://twitter.com/muxin_li">@muxin_li</a></p></div>
+				<div class="avatar">
+					<img src="static/Avatar.png" class="img-fluid photo" alt="A person's face should be here. They lost their photo. Oops.">
+				</div>
+			</div>
+		</article>
+
+		<article class="work">
+			<!-- 	Back to the top arrow; hidden until scroll is over 200 px		 -->
+			<a href="#banner" style="text-decoration: none"><div class="up-arrow">^</div></a>
+	
+			<!-- Projects by name and description -->
+			<h2>Projects</h2>
+			<div class="row">
+			<section class="projects">
+				<img src="https://every-tuesday.com/wp-content/uploads/2016/10/seran-wrap-pressed-watercolor-texture.jpg" class="preview img-fluid rounded">
+				<h3>Blog</h3>
+				<div class="read">
+					<a href="#">Read more...</a></div>
+			</section>
+
+			<section class="projects">
+				<img src="https://nintendowire.com/wp-content/uploads/2016/09/Banner-Zelda-BreathOfTheWild-Cooking.jpg" class="preview img-fluid rounded">
+				<h3>Taste of the Wild</h3>
+				<p>A coding project inspired by Zelda; TBD.</p>
+				<div class="read">
+					<a href="#">Read more...</a></div>
+			</section>
+			</div>			
+			<!-- Contact section -->
+			<section>
+				<h2 id="contact">Contact me</h2>
+				<div class="contact rounded">
+					<form class="form-group row" action="https://formspree.io/lesolea@gmail.com" method="post">
+					    <div class="col-sm-11">
+					   		<input type="text" class="form-control" name="name" placeholder="Name" required><br>
+						</div>
+					    <div class="col-sm-11">
+						   <input type="text" class="form-control" name="_replyto" placeholder="email@domain.com (optional)"><br>
+						</div>
+						<div class="col-sm-11">
+						   <textarea class="form-control" name="message" placeholder="Message" required></textarea>
+						   <input type="hidden" name="_subject" value="New message!">
+						   <input type="text" name="_gotcha" style="display:none"/>
+						</div>
+						<!-- Send button -->
+						<input type="submit" value="Send" class="submit btn btn-success">
+						
+					</form>
+				</div>
+			</section>
+
+		</article>
+
+		<footer>
+			<!-- Made w/note -->
+			<div class="note">
+				<p class="d-inline-block">Made w/</p>
+				<img src="static/coffee.png" class="d-inline-block icons">
+				<p class="d-inline-block"> + </p>
+				<img src="static/heart.png" class="d-inline-block icons">
+				<p class="d-inline-block"> by Muxin Li</p>
+			</div>
+			<!-- GitHub, LinkedIn accounts go here -->
+			<div class="social">
+				<a href="https://github.com/muxinli"><img src="static/github.png" class="logo"></a>
+				<a href="https://www.linkedin.com/in/muxinli/"><img src="static/linkedin.png" class="logo"></a>
+				<a href="https://twitter.com/muxin_li"><img src="static/twitter.png" class="logo"></a>
+			</div>
+		</footer>
+	</div>
+</body>
+
+</html>
