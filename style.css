@@ -69,6 +69,11 @@ footer {
 	margin-bottom: 10%;
 }
 
+#party {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
 /* Extra small devices 600 and down*/
 @media only screen and (max-width: 600px){
 	.up-arrow {
