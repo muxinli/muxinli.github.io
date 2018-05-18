@@ -9,41 +9,10 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 	<link href="https://fonts.googleapis.com/css?family=Muli:300,400,600" rel="stylesheet">
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 	<!-- Animate scrolling and arrow for going back to the top -->
-	<script>
-		$(document).ready(function() {
-			// Animates fade in/out the scroll-back-to-the-top arrow 
-			$(window).scroll(function(){
-				if ($(document).scrollTop() < 200) {
-					// $(".up-arrow").css("opacity","1");
-					$(".up-arrow").stop().animate({opacity: '0'},150);
-				} else {
-					// $(".up-arrow").css("opacity","0");
-					$(".up-arrow").stop().animate({opacity: '1'},150);
-				}
-			});
-
-			$("a").click(function(){
-				// Function defining smooth scrolling
-				$("html, body").animate({
-					scrollTop: $(this.hash).offset().top
-      				}, 800, function(){
-				});
-			});
-			
-			// Change scroll-back-to-the-top arrow's color when clicked
-			$(".up-arrow").on({
-				mousedown: function(){
-					$(this).css("color", "white");
-				},
-				mouseup: function(){
-					$(this).css("color", "#989898");
-				}
-			});
-
-		});
-	</script>
+	<script src="js/animate.js"></script>
+	<!-- Medium articles JSON feed and parsing scriptt (clean up HTML tags)-->
+	<script src="js/medium.js"></script>
 </head>
 
 <body>
@@ -87,11 +56,15 @@
 			<!-- Projects by name and description -->
 			<h2>Projects</h2>
 			<div class="row">
-			<section class="projects">
-				<img src="https://every-tuesday.com/wp-content/uploads/2016/10/seran-wrap-pressed-watercolor-texture.jpg" class="preview img-fluid rounded">
-				<h3>Blog</h3>
+			
+			<!-- Do not change blog section. JSON and jQuery actions are going on. -->
+			
+			<section id="blog" class="projects">
+				<img src="#" id="blogImage" class="preview img-fluid rounded">
+				<h3></h3>
+				<p></p>
 				<div class="read">
-					<a href="#">Read more...</a></div>
+					<a id="blogURL" href="#">Read more...</a></div>
 			</section>
 
 			<section class="projects">
@@ -114,7 +87,7 @@
 						   <input type="email" class="form-control" name="email" placeholder="Email (optional)" /><br>
 						</div>
 						<div class="col-sm-11">
-						   <textarea class="form-control" name="message" placeholder="Message (if offering web development projects, please include your contact info)" /></textarea>
+						   <textarea class="form-control" name="message" placeholder="Message (if offering web projects, include contact info)" /></textarea>
 						   <input type="hidden" name="_subject" value="New message!" />
 						   <input type="text" name="_gotcha" style="display:none" />
 						   <input type="hidden" name="_next" value="https://muxinli.github.io/thank_you.html" />
@@ -132,7 +105,7 @@
 			<!-- Made w/note -->
 			<div class="note">
 				<p class="d-inline-block">Made w/</p>
-				<img src="static/coffee.png" class="d-inline-block icons">
+				<img src="static/coffee mug.png" class="d-inline-block icons">
 				<p class="d-inline-block"> + </p>
 				<img src="static/heart.png" class="d-inline-block icons">
 				<p class="d-inline-block"> by Muxin Li</p>
