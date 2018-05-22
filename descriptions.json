@@ -1,0 +1,582 @@
+[
+ {
+   "Item": "Apple Pie",
+   "Description": "The crispy, flaky pie crust and sweet apples are a match made in heaven.",
+   "Ingredients": "Tabantha Wheat\nCane Sugar\nGoat Butter\nApple"
+ },
+ {
+   "Item": "Carrot Cake",
+   "Description": "Even those who don't like carrots tend to enjoy the mild sweetness of this cake.",
+   "Ingredients": "Tabantha Wheat\nCane Sugar\nGoat Butter\nAny Carrot"
+ },
+ {
+   "Item": "Carrot Stew",
+   "Description": "This simple stew sat simmering for a long time to bring out the sweetness of the carrots.",
+   "Ingredients": "Any Carrot\nFresh Milk\nGoat Butter\nTabantha Wheat"
+ },
+ {
+   "Item": "Crab Omelet with Rice",
+   "Description": "The fluffy crab legs pair perfectly with the rice for a truly scrumptious dish.",
+   "Ingredients": "Hylian Rice\nBird Egg\nRock Salt\nAny Crab"
+ },
+ {
+   "Item": "Crab Risotto",
+   "Description": "An everyday stable of seaside villages, the secret to its delicious flavor lies in crab fat.",
+   "Ingredients": "Hylian Rice\nGoat Butter\nRock Salt\nAny Crab"
+ },
+ {
+   "Item": "Crab Stir-Fry",
+   "Description": "The Goron spice used in preparing this crab pairs perfectly with the flavor of the meat.",
+   "Ingredients": "Goron Spice\nAny Crab"
+ },
+ {
+   "Item": "Cream of Mushroom Soup",
+   "Description": "The creamy mushroom and vegetable soup is so chunky it eats like a meal!",
+   "Ingredients": "Any Mushroom\nAny Vegetable, Herb, or Flower\nFresh Milk\nRock Salt"
+ },
+ {
+   "Item": "Cream of Vegetable Soup",
+   "Description": "Made by simmering vegetables in milk, this healthy dish is as simple as the ingredients.",
+   "Ingredients": "Any Vegetable, Herb or Flower (except carrots or pumpkin)\nFresh Milk\nRock Salt"
+ },
+ {
+   "Item": "Creamy Heart Soup",
+   "Description": "Enjoying this sweet soup with another person will bring you both closer together.",
+   "Ingredients": "Hydromelon\nVoltfruit\nAny Radish\nFresh Milk"
+ },
+ {
+   "Item": "Creamy Meat Soup",
+   "Description": "This nutritious soup contains serious portions of lightly-braised meat and many vegetables.",
+   "Ingredients": "Any Meat\nAny Vegetable, Herb, or Flower\nFresh Milk\nRock Salt"
+ },
+ {
+   "Item": "Creamy Seafood Soup",
+   "Description": "Thuck-cut chunks of seafood and stock provides a satisfying savoriness.",
+   "Ingredients": "Any Seafood\nAny Vegetable, Herb, or Flower\nFresh Milk\nRock Salt"
+ },
+ {
+   "Item": "Curry Pilaf",
+   "Description": "The goron spice used in this pilaf has given it a rich, spicy aroma.",
+   "Ingredients": "Hylian Rice\nBird Egg\nGoat Butter\nGoron Spice"
+ },
+ {
+   "Item": "Curry Rice",
+   "Description": "A favorite all over Hyrule, this simple dish has a flavor you just won't get tired of.",
+   "Ingredients": "Hylian Rice\nGoron Spice"
+ },
+ {
+   "Item": "Dubious Food",
+   "Description": "It's too gross to even look at. A bizarre smell issues forth from this heap. Eating it won't hurt you though...probably.",
+   "Ingredients": "Food with critters or monster parts, or\nSeasoning without food, or\nMonster parts without critters, or\nCritters without monster parts"
+ },
+ {
+   "Item": "Egg Pudding",
+   "Description": "Made by cooking eggs and milk in a special mold, its soft texture melts in your mouth.",
+   "Ingredients": "Fresh Milk\nBird Egg\nCane Sugar"
+ },
+ {
+   "Item": "Egg Tart",
+   "Description": "You'll know this simple dessert is done baking when it smells just delightful.",
+   "Ingredients": "Tabantha Wheat\nBird Egg\nCane Sugar\nGoat Butter"
+ },
+ {
+   "Item": "Glazed Meat",
+   "Description": "The sweetness of the honey permeates the meat, giving it a complex taste profile.",
+   "Ingredients": "Courser Bee Honey\nAny Meat"
+ },
+ {
+   "Item": "Honey Candy",
+   "Description": "A natural sweet, brimming with nutrition and made by stewing fresh honey.",
+   "Ingredients": "Courser Bee Honey"
+ },
+ {
+   "Item": "Honeyed Apple",
+   "Description": "A juicy sweet-and-sour dish combining newly ripened apples with honey.",
+   "Ingredients": "Apple\nCourser Bee Honey"
+ },
+ {
+   "Item": "Fish Skewer",
+   "Description": "A simple dish made by cooking chunks of fresh fish on a skewer.",
+   "Ingredients": "Any Fish"
+ },
+ {
+   "Item": "Copious Seafood Skewers",
+   "Description": "It's just a whole heap of stuff shoved on to a skewer, but it's still a pretty tasty dish.",
+   "Ingredients": "Any 4 different Seafood"
+ },
+ {
+   "Item": "Fish and Mushroom Skewer",
+   "Description": "A simple dish made by cooking skewered, fresh fish alongside fragrant mushrooms.",
+   "Ingredients": "Any Fish\nAny Mushroom"
+ },
+ {
+   "Item": "Fish Pie",
+   "Description": "A mainstay in any fisherman's home, the crisp crust pairs well with the fishy flavor.",
+   "Ingredients": "Tabantha Wheat\nGoat Butter\nRock Salt\nAny Seafood"
+ },
+ {
+   "Item": "Fragrant Mushroom Sauté",
+   "Description": "The fragrant aroma of this sautéed spice and mushroom dish makes your mouth water.",
+   "Ingredients": "Goron Spice\nAny Mushroom"
+ },
+ {
+   "Item": "Fried Bananas",
+   "Description": "Children love fried mighty bananas.  The trick is frying them over very high heat.",
+   "Ingredients": "Mighty Bananas\nTabantha Wheat\nCane Sugar"
+ },
+ {
+   "Item": "Fried Egg and Rice",
+   "Description": "The soft egg yolk pairs well with the fresh rice in this simple dish.",
+   "Ingredients": "Hylian Rice\nBird Egg"
+ },
+ {
+   "Item": "Fried Wild Greens",
+   "Description": "A basic vegetable dish made by sautéing fresh wild plants.",
+   "Ingredients": "Any Vegetable, Herb, or Flower"
+ },
+ {
+   "Item": "Copious Fried Wild Greens",
+   "Description": "A healthy dish made by cooking mixed greens over a strong flame.",
+   "Ingredients": "Any 4 different Vegetables, Herbs, or Flowers"
+ },
+ {
+   "Item": "Fruit and Mushroom Mix",
+   "Description": "This dish contrasts the sweetness of fruit with the savoriness of mushrooms.",
+   "Ingredients": "Any Fruit\nAny Mushroom"
+ },
+ {
+   "Item": "Fruit Pie",
+   "Description": "A celebration isn't a celebration until this fruit-filled crust hits the table!",
+   "Ingredients": "Any Fruit (besides Apple)\nTabantha Wheat\nCane Sugar\nGoat Butter"
+ },
+ {
+   "Item": "Fruit Cake",
+   "Description": "Making ample use of fruits found all over Hyrule, this cake is a must for celebrations.",
+   "Ingredients": "Apple or Wildberry\nAny Fruit\nTabantha Wheat\nCane Sugar"
+ },
+ {
+   "Item": "Glazed Mushrooms",
+   "Description": "The honey in this mushroom dish gives it a sweet, complex taste and a savory finish.",
+   "Ingredients": "Courser Bee Honey\nAny Mushroom"
+ },
+ {
+   "Item": "Glazed Seafood",
+   "Description": "A seafood dish that you can actually wolf down whole!",
+   "Ingredients": "Courser Bee Honey\nAny Seafood"
+ },
+ {
+   "Item": "Glazed Veggies",
+   "Description": "Don't like the taste of vegetables? Simply sauté them in honey for a salty-sweet flavor!",
+   "Ingredients": "Courser Bee Honey\nAny Vegetable, Herb, or Flower"
+ },
+ {
+   "Item": "Gourmet Meat and Rice Bowl",
+   "Description": "Only the most carefully selected cuts of high-quality meats go into this dish.",
+   "Ingredients": "Raw Gourmet Meat\nHylian Rice\nRock Salt"
+ },
+ {
+   "Item": "Gourmet Meat and Seafood Fry",
+   "Description": "A marriage of the choicest cuts of meat and seafood.  As delicious as it is filling!",
+   "Ingredients": "Any Gourmet Meat\nAny Seafood"
+ },
+ {
+   "Item": "Gourmet Meat Curry",
+   "Description": "The high-quality meat used in this prized dish satisfies meat and curry lovers alike.",
+   "Ingredients": "Raw Gourmet Meat\nGoron Spice\nHylian Rice"
+ },
+ {
+   "Item": "Gourmet Meat Stew",
+   "Description": "The meat has simmered for so long it melts in your mouth.  A true bucket-list meal!",
+   "Ingredients": "Any Gourmet Meat\nTabantha Wheat\nFresh Milk\nGoat Butter"
+ },
+ {
+   "Item": "Gourmet Poultry Curry",
+   "Description": "Once served in Hyrule Castle, the poultry used in this dish is of immensely high quality.",
+   "Ingredients": "Raw Whole Bird\nGoron Spice\nHylian Rice"
+ },
+ {
+   "Item": "Gourmet Poultry Pilaf",
+   "Description": "Made with the highest-quality poultry, every bite of this pilaf floods your mouth with flavor.",
+   "Ingredients": "Raw Whole Bird\nHylian Rice\nGoat Butter\nBird Egg"
+ },
+ {
+   "Item": "Gourmet Spiced Meat Skewer",
+   "Description": "The rich aroma and juicy texture of this high-quality meat puts it in a league of its own.",
+   "Ingredients": "Raw Gourmet Meat\nGoron Spice"
+ },
+ {
+   "Item": "Clam Chowder",
+   "Description": "The nutritional value of hearty blueshell snail combines with butter and milk in a rich soup.",
+   "Ingredients": "Fresh Milk\nTabantha Wheat\nGoat Butter\nHearty Blueshell Snail"
+ },
+ {
+   "Item": "Salmon Meunière",
+   "Description": "The crispy skin of this fried hearty salmon puts its texture in a class all its own.",
+   "Ingredients": "Tabantha Wheat\nGoat Butter\nHearty Salmon"
+ },
+ {
+   "Item": "Herb Sauté",
+   "Description": "A fragrant mixture of herbs and spices.\nIt's easily recognized by its unique aroma.",
+   "Ingredients": "Any Vegetable, Herb, or Flower\nGoron Spice"
+ },
+ {
+   "Item": "Honey Crepe",
+   "Description": "Honey has been drizzled over thin crepes to bring out their natural sweetness and flavor.",
+   "Ingredients": "Fresh Milk\nBird Egg\nTabantha Wheat\nCane Sugar\nCourser Bee Honey"
+ },
+ {
+   "Item": "Honeyed Fruits",
+   "Description": "A dish that combines the thick sweetness of honey with the acidity of sour fruits.",
+   "Ingredients": "Courser Bee Honey\nAny Fruit (besides Apple)"
+ },
+ {
+   "Item": "Hot Buttered Apple",
+   "Description": "The apple's sweetness has been enhanced by smothering it with butter and baking it.",
+   "Ingredients": "Apple\nGoat Butter"
+ },
+ {
+   "Item": "Meat & Mushroom Skewer",
+   "Description": "A filling dish made by grilling various mountain ingredients with either Steak or Bird Meat.",
+   "Ingredients": "Any Meat\nAny Mushroom"
+ },
+ {
+   "Item": "Meat and Rice Bowl",
+   "Description": "This dish of rice and lightly seared meat is a mainstay all throughout Hyrule.",
+   "Ingredients": "Hylian Rice\nAny Meat\nRock Salt"
+ },
+ {
+   "Item": "Meat and Seafood Fry",
+   "Description": "A filling dish made by cooking fresh seafood and meat together.",
+   "Ingredients": "Any Meat\nAny Seafood"
+ },
+ {
+   "Item": "Meat Curry",
+   "Description": "The heat from the spice allows you to enjoy the large portion of the meat's savoriness.",
+   "Ingredients": "Raw Meat\nHylian Rice\nGoron Spice"
+ },
+ {
+   "Item": "Meat Pie",
+   "Description": "You'll need an extra napkin to deal with this juicy pie of perfectly baked minced meat.",
+   "Ingredients": "Tabantha Wheat\nGoat Butter\nRock Salt\nAny Meat"
+ },
+ {
+   "Item": "Meat Skewer",
+   "Description": "A juicy, filling snack made by grilling small chunks of meat on a skewer.",
+   "Ingredients": "Any 3 or less Meat"
+ },
+ {
+   "Item": "Copious Meat Skewers",
+   "Description": "Just shove a bunch of meat on to a skewer and you're good to go.",
+   "Ingredients": "Any 4 different Meats"
+ },
+ {
+   "Item": "Meat Stew",
+   "Description": "The hearty meat in this mainstay dish leaves bellies satisfied all throughout Hyrule.",
+   "Ingredients": "Raw Meat or Raw Bird Drumstick\nTabantha Wheat\nGoat Butter\nFresh Milk"
+ },
+ {
+   "Item": "Meaty Rice Balls",
+   "Description": "The sweet and spicy meat stuffed into these rice balls will keep you full for some time.",
+   "Ingredients": "Any Meat\nHylian Rice"
+ },
+ {
+   "Item": "Monster Cake",
+   "Description": "It's said that once you have a taste of this cake, you'll never forget its sweetness.",
+   "Ingredients": "Tabantha Wheat\nCane Sugar\nGoat Butter\nMonster Extract"
+ },
+ {
+   "Item": "Monster Curry",
+   "Description": "This unusual take on curry uses monster extract and doesn't rely on spices.",
+   "Ingredients": "Hylian Rice\nGoron Spice\nMonster Extract"
+ },
+ {
+   "Item": "Monster Rice Balls",
+   "Description": "Rice balls flavored with monster extract.  Their unique aroma is not for everyone.",
+   "Ingredients": "Hylian Rice\nRock Salt\nMonster Extract"
+ },
+ {
+   "Item": "Monster Soup",
+   "Description": "Using monster extract as a base, this soup's distinct gaminess is either loved or hated.",
+   "Ingredients": "Monster Extract\nTabantha Wheat\nFresh Milk\nGoat Butter"
+ },
+ {
+   "Item": "Monster Stew",
+   "Description": "Meat and seafood simmered in monster extract.  A savory dish despite its ingredients.",
+   "Ingredients": "Any Meat\nAny Seafood\nMonster Extract"
+ },
+ {
+   "Item": "Mushroom Omelet",
+   "Description": "The fluffy texture of this omelet is one of the great joys of this dish, as well as life.",
+   "Ingredients": "Any Mushroom\nBird Egg\nGoat Butter\nRock Salt"
+ },
+ {
+   "Item": "Mushroom Rice Balls",
+   "Description": "The aroma of the mushrooms tickles your nose as you peel back the leafy wrapping.",
+   "Ingredients": "Hylian Rice\nAny Mushroom"
+ },
+ {
+   "Item": "Mushroom Risotto",
+   "Description": "The tantalizing aroma of mushrooms and butter beckons you to the table.",
+   "Ingredients": "Hylian Rice\nGoat Butter\nRock Salt\nAny Mushroom"
+ },
+ {
+   "Item": "Mushroom Skewer",
+   "Description": "This simple mushroom-packed skewer has its colorful presentation to thank for its appeal.",
+   "Ingredients": "Any Mushroom"
+ },
+ {
+   "Item": "Copious Mushrooms Skewers",
+   "Description": "Fans of fungal cuisine can't resist this simple mushroom-skewer dish.  Very filling.",
+   "Ingredients": "Any 4 different Mushrooms"
+ },
+ {
+   "Item": "Nut Cake",
+   "Description": "Forest nuts give this cake a pleasant texture and a simple, understated sweetness.",
+   "Ingredients": "Any Nut\nTabantha Wheat\nCane Sugar\nGoat Butter"
+ },
+ {
+   "Item": "Omelet",
+   "Description": "This simple dish is common all over Hyrule. Simply fry egg until it's nice and plump.",
+   "Ingredients": "Bird Egg"
+ },
+ {
+   "Item": "Peppered Seafood",
+   "Description": "The pepper seeds grilled with this seafood draw out its taste and pleasant aroma.",
+   "Ingredients": "Spicy Pepper\nAny Seafood"
+ },
+ {
+   "Item": "Plain Crepe",
+   "Description": "The simplicity of this dish lets the flavor of its ingredients shine.",
+   "Ingredients": "Fresh Milk\nCane Sugar\nTabantha Wheat\nBird Egg\nGoat Butter"
+ },
+ {
+   "Item": "Porgy Meunière",
+   "Description": "Popular among residents of coastal regions, this juicy porgy is a delish dish.",
+   "Ingredients": "Any Porgy\nGoat Butter\nTabantha Wheat"
+ },
+ {
+   "Item": "Poultry Curry",
+   "Description": "The savory meat pairs well with the aroma of spice in this common curry.",
+   "Ingredients": "Raw Bird Drumstick\nHylian Rice\nGoron Spice"
+ },
+ {
+   "Item": "Poultry Pilaf",
+   "Description": "Sautéed Hylian rice steamed in poultry broth.  Cook on low heat until the rice is fluffy.",
+   "Ingredients": "Raw Bird Drumstick\nHylian Rice\nBird Egg\nGoat Butter"
+ },
+ {
+   "Item": "Prime Meat and Rice Bowl",
+   "Description": "This bowl is loaded with high-quality meat.  Your hunt for a serious meal ends here.",
+   "Ingredients": "Raw Prime Meat\nHylian Rice\nRock Salt"
+ },
+ {
+   "Item": "Prime Meat and Seafood Fry",
+   "Description": "This comfort dish is made with choice cuts of meat and seafood.",
+   "Ingredients": "Any Prime Meat\nAny Seafood"
+ },
+ {
+   "Item": "Prime Meat Curry",
+   "Description": "The  high-quality meat in this curry has given it a deeper taste than most other curries.",
+   "Ingredients": "Raw Prime Meat\nHylian Rice\nGoron Spice"
+ },
+ {
+   "Item": "Prime Meat Stew",
+   "Description": "Letting the large portions of choice cuts of meat simmer brought out their savoriness.",
+   "Ingredients": "Any Prime Meat\nTabantha Wheat\nGoat Butter\nFresh Milk"
+ },
+ {
+   "Item": "Prime Poultry Curry",
+   "Description": "The secret to this curry's flavor is taking it off the heat while you add the spices.",
+   "Ingredients": "Raw Bird Thigh\nGoron Spice\nHylian Rice"
+ },
+ {
+   "Item": "Prime Poultry Pilaf",
+   "Description": "The rice permeates the savory taste of the poultry in this Gerudo-region favorite.",
+   "Ingredients": "Raw Bird Thigh\nHylian Rice\nBird Egg\nGoat Butter"
+ },
+ {
+   "Item": "Prime Spiced Meat Skewer",
+   "Description": "The simple preparation of this steak dish belies its complex taste profile.",
+   "Ingredients": "Raw Prime Meat\nGoron Spice"
+ },
+ {
+   "Item": "Pumpkin Pie",
+   "Description": "The intense sweetness of fortified pumpkins makes this dessert popular among children.",
+   "Ingredients": "Fortified Pumpkin\nTabantha Wheat\nCane Sugar\nGoat Butter"
+ },
+ {
+   "Item": "Pumpkin Stew",
+   "Description": "Simply simmer a fortified pumpkin to make this dish.  A favorite in Kakariko Village.",
+   "Ingredients": "Fortified Pumpkin\nTabantha Wheat\nGoat Butter\nFresh Milk"
+ },
+ {
+   "Item": "Rock-Hard Food",
+   "Description": "A dish gone awry after adding the wrong ingredient. Chewing your way through this won't be fun, but it will fill you up when you're between a rock and a hard place.",
+   "Ingredients": "Wood or ore"
+ },
+ {
+   "Item": "Salmon Risotto",
+   "Description": "The rice used in this rich risotto permeates the light flavor of the salmon.",
+   "Ingredients": "Hearty Salmon\nHylian Rice\nGoat Butter\nRock Salt"
+ },
+ {
+   "Item": "Salt-Grilled Crab",
+   "Description": "Nine out of ten fishermen agree: crab is best enjoyed grilled and with just a bit of salt.",
+   "Ingredients": "Rock Salt\nAny Crab"
+ },
+ {
+   "Item": "Salt-Grilled Fish",
+   "Description": "A simple dish made by rolling a whole fish in natural rock salt before grilling it.",
+   "Ingredients": "Rock Salt\nAny Fish or Snail"
+ },
+ {
+   "Item": "Salt-Grilled Gourmet Meat",
+   "Description": "This lavish grilled dish makes liberal use of high-quality cuts of meat.",
+   "Ingredients": "Rock Salt\nAny Gourmet Meat"
+ },
+ {
+   "Item": "Salt-Grilled Greens",
+   "Description": "A health-boosting dish made with leafy greens and a touch of salt.",
+   "Ingredients": "Rock Salt\nAny Vegetable, Herb, or Flower"
+ },
+ {
+   "Item": "Salt-Grilled Meat",
+   "Description": "Short on ingredients? Just rub some meat in salt and cook it for a simple, tasty dish.",
+   "Ingredients": "Rock Salt\nRaw Meat or Raw Bird Drumstick"
+ },
+ {
+   "Item": "Salt-Grilled Mushrooms",
+   "Description": "A basic mushroom dish made by lightly salting mushrooms and grilling them.",
+   "Ingredients": "Any Mushroom\nRock Salt"
+ },
+ {
+   "Item": "Salt-Grilled Prime Meat",
+   "Description": "A simple yet exquisite dish made by grilling high-quality meat on top of rock salt.",
+   "Ingredients": "Any Prime Meat\nRock Salt"
+ },
+ {
+   "Item": "Sautéed Nuts",
+   "Description": "These sautéed tree seeds are the perfect snack for the busy adventurer on the go!",
+   "Ingredients": "Acorn\nor\nChickaloo Tree Nut"
+ },
+ {
+   "Item": "Seafood Curry",
+   "Description": "This dish brims with treasures from the sea.  Its spice packs a kick, so it's not for kids.",
+   "Ingredients": "Goron Spice\nHylian Rice\nHearty Blueshell Snail or Any Porgy"
+ },
+ {
+   "Item": "Seafood Fried Rice",
+   "Description": "Various seafood has been sautéed with rice.  The stronger the flame, the tastier the dish!",
+   "Ingredients": "Hylian Rice\nRock Salt\nHearty Blueshell Snail or Any Porgy"
+ },
+ {
+   "Item": "Seafood Meunière",
+   "Description": "Rich butter flanks fresh seafood.  The secret ingredient is lots and lots of love.",
+   "Ingredients": "Any Seafood (except Porgy or Salmon)\nTabantha Wheat\nGoat Butter"
+ },
+ {
+   "Item": "Seafood Paella",
+   "Description": "No fisherman's birthday bash would be complete without this top-shelf seafood dish.",
+   "Ingredients": "Hearty Blueshell Snail\nAny Porgy\nHylian Rice\nGoat Butter\nRock Salt"
+ },
+ {
+   "Item": "Seafood Rice Balls",
+   "Description": "Stuffed with aromatic seafood, the flavor can vary by ingredients but never disappoints.",
+   "Ingredients": "Hylian Rice\nAny Seafood"
+ },
+ {
+   "Item": "Seafood Skewer",
+   "Description": "The natural water in this medley of seafaring creatures makes for a delicious broth.",
+   "Ingredients": "Any Crab or Snail"
+ },
+ {
+   "Item": "Simmered Fruit",
+   "Description": "This sweet dish is made by heaping tasty fruits into a pan and simmering until tender.",
+   "Ingredients": "Any Fruit"
+ },
+ {
+   "Item": "Copious Simmered Fruit",
+   "Description": "The flavors of the various fruits in this simmered dish exist in perfect harmony.",
+   "Ingredients": "Any 4 different Fruit"
+ },
+ {
+   "Item": "Spiced Meat Skewer",
+   "Description": "A special Goron spice covers up the scent of the meat, allowing its flavor to shine.",
+   "Ingredients": "Goron Spice\nRaw Meat"
+ },
+ {
+   "Item": "Pepper Steak",
+   "Description": "A dish made by cooking meat in crushed peppers, suppressing the gamy taste while accentuating its flavor.",
+   "Ingredients": "Spicy Pepper\nAny Meat"
+ },
+ {
+   "Item": "Sautéed Peppers",
+   "Description": "The spiciness of these sautéed peppers has been broken by the heat for a sweeter taste.",
+   "Ingredients": "Spicy Pepper"
+ },
+ {
+   "Item": "Steamed Fish",
+   "Description": "A refined dish made by wrapping a fresh fish in fragrant wild greens and cooking it.",
+   "Ingredients": "Any Vegetable, Herb, or Flower\nAny Seafood"
+ },
+ {
+   "Item": "Steamed Fruit",
+   "Description": "A regional dish made by steaming near-ripened fruits in the leaves of fragrant plants.",
+   "Ingredients": "Any Fruit\nAny Vegetable, Herb, or Flower"
+ },
+ {
+   "Item": "Steamed Meat",
+   "Description": "This meat dish has been wrapped in fragrant leaves and steamed to preserve its moisture.",
+   "Ingredients": "Any Meat\nAny Vegetable, Herb, or Flower (except Pumpkin)"
+ },
+ {
+   "Item": "Steamed Mushrooms",
+   "Description": "A healthy vegetable dish achieved by steaming mushrooms in plant leaves.",
+   "Ingredients": "Any Mushroom\nAny Vegetable, Herb, or Flower"
+ },
+ {
+   "Item": "Meat-Stuffed Pumpkin",
+   "Description": "Grants a low-level defense boost. This hollow, meat-filled fortified pumpkin is a local specialty or Kakariko Village.",
+   "Ingredients": "Fortified Pumpkin\nAny Meat"
+ },
+ {
+   "Item": "Vegetable Curry",
+   "Description": "This healthy curry is popular for its mild flavor and moderate spiciness.",
+   "Ingredients": "Any Carrot or Pumpkin\nHylian Rice\nGoron Spice"
+ },
+ {
+   "Item": "Vegetable Omelet",
+   "Description": "This home-style dish mixes fluffy eggs with chopped vegetables for nutritional balance.",
+   "Ingredients": "Any Vegetable, Herb, or Flower\nBird Egg\nGoat Butter\nRock Salt"
+ },
+ {
+   "Item": "Vegetable Risotto",
+   "Description": "The sweetness of the ingredients gives this risotto a mild flavor.",
+   "Ingredients": "Any Carrot or Pumpkin\nHylian Rice\nGoat Butter\nRock Salt"
+ },
+ {
+   "Item": "Veggie Cream Soup",
+   "Description": "This creamy soup showcases the sweetness of vegetables in a veritable taste explosion.",
+   "Ingredients": "Any Carrot or Pumpkin\nFresh Milk\nRock Salt"
+ },
+ {
+   "Item": "Veggie Rice Balls",
+   "Description": "This home-style dish of Kakariko Village is stuffed with the bounty of the mountains.",
+   "Ingredients": "Any Vegetable, Herb, or Flower\nHylian Rice"
+ },
+ {
+   "Item": "Warm Milk",
+   "Description": "Make this by heating up some milk.  Drink it before bed to ensure a good night's sleep.",
+   "Ingredients": "Fresh Milk"
+ },
+ {
+   "Item": "Wheat Bread",
+   "Description": "Made with wheat from the Tabantha region, this soft, springy bread smells just heavenly.",
+   "Ingredients": "Tabantha Wheat\nRock Salt"
+ },
+ {
+   "Item": "Wildberry Crepe",
+   "Description": "Sweet, tart wildberries are folded into thin, springy dough to make this dessert.",
+   "Ingredients": "Wildberry\nFresh Milk\nCane Sugar\nTabantha Wheat\nBird Egg"
+ }
+]
