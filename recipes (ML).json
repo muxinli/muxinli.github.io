@@ -2,7 +2,7 @@
   "updated": 1520274420812,
   "data": [
     {
-      "item": "Copious Meat Skewer",
+      "item": "Copious Meat Skewers",
       "requirements": ["Any four different raw meats"],
       "minHeartsRestored": 13,
       "maxHeartsRestored": 19,
@@ -15,7 +15,7 @@
       ]
     },
     {
-      "item": "Copious Mushroom Skewer",
+      "item": "Copious Mushroom Skewers",
       "requirements": ["Any four different mushrooms"],
       "minHeartsRestored": 4,
       "maxHeartsRestored": 19,
@@ -28,7 +28,7 @@
       ]
     },
     {
-      "item": "Copious Seafood Skewer",
+      "item": "Copious Seafood Skewers",
       "requirements": ["Any four different fish"],
       "minHeartsRestored": 2,
       "maxHeartsRestored": 16,
@@ -413,7 +413,7 @@
       "footNotes": ["2 Raw Meats", "Same as max possible hearts"]
     },
     {
-      "item": "Meat-Stuffed Pumpkins",
+      "item": "Meat-Stuffed Pumpkin",
       "requirements": ["Any raw meat", "Fortified Pumpkin"],
       "minHeartsRestored": 3,
       "maxHeartsRestored": 27,
@@ -427,7 +427,7 @@
       ]
     },
     {
-      "item": "Meaty Riceballs",
+      "item": "Meaty Rice Balls",
       "requirements": ["Any raw meat", "Hylian Rice"],
       "minHeartsRestored": 4,
       "maxHeartsRestored": 26,
@@ -1455,16 +1455,6 @@
       "footNotes": []
     },
     {
-      "item": "Fairy Tonic",
-      "requirements": ["Fairy"],
-      "minHeartsRestored": 7,
-      "maxHeartsRestored": "N/A",
-      "minSellingPrice": 2,
-      "maxSellingPrice": 2,
-      "notes": "N/A",
-      "footNotes": ["Four fairies will produce a full-heal Fairy Tonic"]
-    },
-    {
       "item": "Rock-Hard Food",
       "requirements": ["Gems or wood"],
       "minHeartsRestored": "0.25",
@@ -1493,6 +1483,36 @@
       "maxSellingPrice": 270,
       "notes": "N/A",
       "footNotes": ["3 Endura Carrots", "Same as max possible hearts"]
+    },
+    {
+      "item": "Omelet",
+      "requirements": ["Bird Egg"],
+      "minHeartsRestored": 2,
+      "maxHeartsRestored": 4,
+      "minSellingPrice": 10,
+      "maxSellingPrice": 10,
+      "notes": "N/A",
+      "footNotes": ["Add more ingredients to increase the number of hearts restored and add various effects"]
+    },
+    {
+      "item": "Warm Milk",
+      "requirements": ["Fresh Milk"],
+      "minHeartsRestored": 1.5,
+      "maxHeartsRestored": 4,
+      "minSellingPrice": 10,
+      "maxSellingPrice": 10,
+      "notes": "N/A",
+      "footNotes": ["Add extra ingredients to increase the hearts restored or add a special effect"]
+    },
+    {
+      "item": "Fried Egg and Rice",
+      "requirements": ["Hylian Rice", "Bird Egg"],
+      "minHeartsRestored": 4,
+      "maxHeartsRestored": 4,
+      "minSellingPrice": 10,
+      "maxSellingPrice": 10,
+      "notes": "N/A",
+      "footNotes": []
     }
   ]
 }
