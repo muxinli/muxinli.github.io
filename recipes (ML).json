@@ -42,7 +42,7 @@
     },
     {
       "item": "Fish and Mushroom Skewer",
-      "requirements": ["Any fish", "any mushroom"],
+      "requirements": ["Any fish", "Any mushroom"],
       "minHeartsRestored": 3,
       "maxHeartsRestored": 16,
       "minSellingPrice": 20,
@@ -88,7 +88,7 @@
     },
     {
       "item": "Meat and Mushroom Skewer",
-      "requirements": ["Any meat", "any mushroom"],
+      "requirements": ["Any meat", "Any mushroom"],
       "minHeartsRestored": 3,
       "maxHeartsRestored": 26,
       "minSellingPrice": 20,
@@ -145,7 +145,7 @@
     },
     {
       "item": "Fruit and Mushroom Mix",
-      "requirements": ["Any fruit", "any mushroom"],
+      "requirements": ["Any fruit", "Any mushroom"],
       "minHeartsRestored": 2,
       "maxHeartsRestored": 26,
       "minSellingPrice": 10,
@@ -158,20 +158,20 @@
     },
     {
       "item": "Gourmet Meat and Seafood Fry",
-      "requirements": ["Raw Prime Meat/Raw Bird Thigh", "any fish"],
+      "requirements": ["Raw Prime Meat/Raw Bird Thigh", "Any fish"],
       "minHeartsRestored": 8,
       "maxHeartsRestored": 26,
       "minSellingPrice": 80,
       "maxSellingPrice": 450,
       "notes": "N/A",
       "footNotes": [
-        "4 Raw Gourmet Meats + any 1-heart fish",
+        "4 Raw Gourmet Meats + Any 1-heart fish",
         "4 Raw Gourmet Meats + 1 Sanke Carp"
       ]
     },
     {
       "item": "Meat and Seafood Fry",
-      "requirements": ["Raw Meat/Raw Bird Drumstick", "any fish"],
+      "requirements": ["Raw Meat/Raw Bird Drumstick", "Any fish"],
       "minHeartsRestored": 4,
       "maxHeartsRestored": 10,
       "minSellingPrice": 30,
@@ -204,17 +204,17 @@
     },
     {
       "item": "Prime Meat and Seafood Fry",
-      "requirements": ["Raw Prime Meat/Raw Bird Thigh", "any fish"],
+      "requirements": ["Raw Prime Meat/Raw Bird Thigh", "Any fish"],
       "minHeartsRestored": 5,
       "maxHeartsRestored": 11,
       "minSellingPrice": 40,
       "maxSellingPrice": 270,
       "notes": "N/A",
-      "footNotes": ["4 Raw Prime Meats + any 1-heart fish", "4 Sanke Carps"]
+      "footNotes": ["4 Raw Prime Meats + Any 1-heart fish", "4 Sanke Carps"]
     },
     {
       "item": "Steamed Fish",
-      "requirements": ["Any fish", "any vegetable"],
+      "requirements": ["Any fish", "Any vegetable"],
       "minHeartsRestored": 2,
       "maxHeartsRestored": 24,
       "minSellingPrice": 20,
@@ -227,7 +227,7 @@
     },
     {
       "item": "Steamed Fruit",
-      "requirements": ["Any fruit", "any vegetable"],
+      "requirements": ["Any fruit", "Any vegetable"],
       "minHeartsRestored": 1,
       "maxHeartsRestored": 28,
       "minSellingPrice": 10,
@@ -240,7 +240,7 @@
     },
     {
       "item": "Steamed Meat",
-      "requirements": ["Any meat", "any vegetable"],
+      "requirements": ["Any meat", "Any vegetable"],
       "minHeartsRestored": 2,
       "maxHeartsRestored": 28,
       "minSellingPrice": 20,
@@ -253,7 +253,7 @@
     },
     {
       "item": "Steamed Mushrooms",
-      "requirements": ["Any mushroom", "any vegetable"],
+      "requirements": ["Any mushroom", "Any vegetable"],
       "minHeartsRestored": 1,
       "maxHeartsRestored": 18,
       "minSellingPrice": 10,
@@ -266,7 +266,7 @@
     },
     {
       "item": "Creamy Meat Soup",
-      "requirements": ["Any raw meat", "any herb", "Fresh Milk", "Rock Salt"],
+      "requirements": ["Any raw meat", "Any herb", "Fresh Milk", "Rock Salt"],
       "minHeartsRestored": 3,
       "maxHeartsRestored": 15,
       "minSellingPrice": 40,
@@ -608,7 +608,7 @@
       "minSellingPrice": 30,
       "maxSellingPrice": 130,
       "notes": "N/A",
-      "footNotes": ["3 Hearty Salmons + any crab", "3 Sanke Carps + any crab"]
+      "footNotes": ["3 Hearty Salmons + Any crab", "3 Sanke Carps + Any crab"]
     },
     {
       "item": "Crab Risotto",
@@ -625,7 +625,7 @@
     },
     {
       "item": "Creamy Seafood Soup",
-      "requirements": ["Any seafood", "any herb", "Rock Salt", "Fresh Milk"],
+      "requirements": ["Any seafood", "Any herb", "Rock Salt", "Fresh Milk"],
       "minHeartsRestored": 3,
       "maxHeartsRestored": 22,
       "minSellingPrice": 20,
@@ -662,7 +662,7 @@
       "notes": "N/A",
       "footNotes": [
       	"Recipe will always have Energizing prefix unless other effect-imparting fish are added",
-      	"4 Courser Bee Honeys + any 1-heart fish", 
+      	"4 Courser Bee Honeys + Any 1-heart fish", 
       	"4 Sanke Carps"
       ]
     },
@@ -715,7 +715,7 @@
       "minSellingPrice": 30,
       "maxSellingPrice": 120,
       "notes": "N/A",
-      "footNotes": ["3 Hearty Salmons + any crab", "3 Sanke Carps + any crab"]
+      "footNotes": ["3 Hearty Salmons + Any crab", "3 Sanke Carps + Any crab"]
     },
     {
       "item": "Salt-Grilled Fish",
@@ -726,7 +726,7 @@
       "maxSellingPrice": 240,
       "notes": "N/A",
       "footNotes": [
-        "1 Hearty Salmon + any four 1-heart fishes",
+        "1 Hearty Salmon + Any four 1-heart fishes",
         "4 Sanke Carps"
       ]
     },
@@ -756,7 +756,7 @@
     {
       "item": "Seafood Curry",
       "requirements": [
-        "Hearty Blueshell Snail or any Porgy",
+        "Hearty Blueshell Snail or Any Porgy",
         "Hylian Rice",
         "Goron Spice"
       ],
@@ -766,14 +766,14 @@
       "maxSellingPrice": 180,
       "notes": "N/A",
       "footNotes": [
-        "2 Hearty Salmons + 1 any Porgy",
+        "2 Hearty Salmons + 1 Any Porgy",
         "1 Hearty Blueshell Snail + 2 Sanke Carps"
       ]
     },
     {
       "item": "Seafood Fried Rice",
       "requirements": [
-        "Hearty Blueshell Snail or any Porgy",
+        "Hearty Blueshell Snail or Any Porgy",
         "Hylian Rice",
         "Rock Salt"
       ],
@@ -783,7 +783,7 @@
       "maxSellingPrice": 180,
       "notes": "N/A",
       "footNotes": [
-        "1 Hearty Blueshell Snail + 1 Hearty Salmon + 1 any Porgy",
+        "1 Hearty Blueshell Snail + 1 Hearty Salmon + 1 Any Porgy",
         "1 Hearty Blueshell Snail + 2 Sanke Carps"
       ]
     },
@@ -1038,7 +1038,7 @@
       "item": "Cream of Mushroom Soup",
       "requirements": [
         "Any mushroom",
-        "any vegetable",
+        "Any vegetable",
         "Fresh Milk",
         "Rock Salt"
       ],
@@ -1135,7 +1135,7 @@
       "maxSellingPrice": 100,
       "notes": "N/A",
       "footNotes": [
-        "1 1 Palm Fruit + any three different fruits + 1 Big Hearty Radish or 1 Hearty Salmon",
+        "1 1 Palm Fruit + Any three different fruits + 1 Big Hearty Radish or 1 Hearty Salmon",
         "1 Hearty Durian + 1 Mighty Bananas + 1 Fleet-Lotus Seeds + x2 Voltfruit/Palm Fruit/Hydromelon"
       ]
     },
@@ -1226,7 +1226,7 @@
       "item": "Fruit Cake",
       "requirements": [
         "Apple or Wildberry",
-        "any other fruit",
+        "Any other fruit",
         "Cane Sugar",
         "Tabantha Wheat"
       ],
@@ -1418,7 +1418,7 @@
     },
     {
       "item": "Monster Stew",
-      "requirements": ["Monster Extract", "any meat", "any seafood"],
+      "requirements": ["Monster Extract", "Any meat", "Any seafood"],
       "minHeartsRestored": "0.25",
       "maxHeartsRestored": 20,
       "minSellingPrice": 40,
