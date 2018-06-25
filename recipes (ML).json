@@ -580,8 +580,8 @@
         "Fresh Milk",
         "Tabantha Wheat"
       ],
-      "minHeartsRestored": "N/A",
-      "maxHeartsRestored": 11,
+      "minHeartsRestored": "Full",
+      "maxHeartsRestored": "recovery",
       "minSellingPrice": 60,
       "maxSellingPrice": 130,
       "notes": "N/A",
@@ -679,8 +679,8 @@
     {
       "item": "Salmon Meunière",
       "requirements": ["Hearty Salmon", "Goat Butter", "Tabantha Wheat"],
-      "minHeartsRestored": "N/A",
-      "maxHeartsRestored": 14,
+      "minHeartsRestored": "Full",
+      "maxHeartsRestored": "recovery",
       "minSellingPrice": 40,
       "maxSellingPrice": 160,
       "notes": "N/A",
@@ -697,8 +697,8 @@
         "Hylian Rice",
         "Goat Butter"
       ],
-      "minHeartsRestored": "N/A",
-      "maxHeartsRestored": 14,
+      "minHeartsRestored": "Full",
+      "maxHeartsRestored": "recovery",
       "minSellingPrice": 50,
       "maxSellingPrice": 110,
       "notes": "N/A",
@@ -825,7 +825,7 @@
     {
       "item": "Copious Fried Wild Greens",
       "requirements": ["Any four different vegetables"],
-      "minHeartsRestored": "0.25",
+      "minHeartsRestored": 0.25,
       "maxHeartsRestored": 23,
       "minSellingPrice": 10,
       "maxSellingPrice": 240,
@@ -1409,7 +1409,7 @@
     {
       "item": "Monster Rice Balls",
       "requirements": ["Monster Extract", "Hylian Rice", "Rock Salt"],
-      "minHeartsRestored": "0.25",
+      "minHeartsRestored": 0.25,
       "maxHeartsRestored": 17,
       "minSellingPrice": 20,
       "maxSellingPrice": 220,
@@ -1419,7 +1419,7 @@
     {
       "item": "Monster Stew",
       "requirements": ["Monster Extract", "Any meat", "Any seafood"],
-      "minHeartsRestored": "0.25",
+      "minHeartsRestored": 0.25,
       "maxHeartsRestored": 20,
       "minSellingPrice": 40,
       "maxSellingPrice": 360,
@@ -1437,7 +1437,7 @@
         "Goat Butter",
         "Tabantha Wheat"
       ],
-      "minHeartsRestored": "0.25",
+      "minHeartsRestored": 0.25,
       "maxHeartsRestored": 11,
       "minSellingPrice": 30,
       "maxSellingPrice": 140,
@@ -1457,8 +1457,8 @@
     {
       "item": "Rock-Hard Food",
       "requirements": ["Gems or wood"],
-      "minHeartsRestored": "0.25",
-      "maxHeartsRestored": "0.25",
+      "minHeartsRestored": 0.25,
+      "maxHeartsRestored": 0.25,
       "minSellingPrice": 2,
       "maxSellingPrice": 2,
       "notes": "N/A",
@@ -1467,7 +1467,7 @@
     {
       "item": "Sautéed Nuts",
       "requirements": ["Acorn or Chickaloo Tree Nut"],
-      "minHeartsRestored": "0.5",
+      "minHeartsRestored": 0.5,
       "maxHeartsRestored": 2,
       "minSellingPrice": 8,
       "maxSellingPrice": 50,
