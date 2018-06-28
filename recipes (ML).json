@@ -4,6 +4,7 @@
     {
       "item": "Copious Meat Skewers",
       "requirements": ["Any four different raw meats"],
+      "type": "Meat",
       "minHeartsRestored": 13,
       "maxHeartsRestored": 19,
       "minSellingPrice": 160,
@@ -17,6 +18,7 @@
     {
       "item": "Copious Mushroom Skewers",
       "requirements": ["Any four different mushrooms"],
+      "type": "Veggies",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 19,
       "minSellingPrice": 40,
@@ -30,6 +32,7 @@
     {
       "item": "Copious Seafood Skewers",
       "requirements": ["Any four different fish"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 16,
       "minSellingPrice": 60,
@@ -43,6 +46,7 @@
     {
       "item": "Fish and Mushroom Skewer",
       "requirements": ["Any fish", "Any mushroom"],
+      "type": "Fish",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 16,
       "minSellingPrice": 20,
@@ -53,6 +57,7 @@
     {
       "item": "Fish Skewer",
       "requirements": ["Any fish"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 10,
       "minSellingPrice": 10,
@@ -63,6 +68,7 @@
     {
       "item": "Gourmet Spiced Meat Skewer",
       "requirements": ["Raw Gourmet Meat/Raw Whole Bird", "Goron Spice"],
+      "type": "Meat",
       "minHeartsRestored": 6,
       "maxHeartsRestored": 24,
       "minSellingPrice": 70,
@@ -73,6 +79,7 @@
     {
       "item": "Meat Skewer",
       "requirements": ["Any raw meat"],
+      "type": "Meat",
       "minHeartsRestored": 2,
       "maxHeartsRestored": "See footnotes",
       "minSellingPrice": 20,
@@ -89,6 +96,7 @@
     {
       "item": "Meat and Mushroom Skewer",
       "requirements": ["Any meat", "Any mushroom"],
+      "type": "Meat",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 26,
       "minSellingPrice": 20,
@@ -102,6 +110,7 @@
     {
       "item": "Mushroom Skewer",
       "requirements": ["Any mushroom"],
+      "type": "Veggies",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 10,
       "minSellingPrice": 10,
@@ -112,6 +121,7 @@
     {
       "item": "Prime Spiced Meat Skewer",
       "requirements": ["Raw Prime Meat/Raw Bird Thigh", "Goron Spice"],
+      "type": "Meat",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 12,
       "minSellingPrice": 40,
@@ -126,6 +136,7 @@
     {
       "item": "Spiced Meat Skewer",
       "requirements": ["Raw Meat/Raw Bird Drumstick", "Goron Spice"],
+      "type": "Meat",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 8,
       "minSellingPrice": 30,
@@ -136,6 +147,7 @@
     {
       "item": "Seafood Skewer",
       "requirements": ["Any crab or snail"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 10,
       "minSellingPrice": 10,
@@ -146,6 +158,7 @@
     {
       "item": "Fruit and Mushroom Mix",
       "requirements": ["Any fruit", "Any mushroom"],
+      "type": "Veggies",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 26,
       "minSellingPrice": 10,
@@ -159,6 +172,7 @@
     {
       "item": "Gourmet Meat and Seafood Fry",
       "requirements": ["Raw Prime Meat/Raw Bird Thigh", "Any fish"],
+      "type": "Meat",
       "minHeartsRestored": 8,
       "maxHeartsRestored": 26,
       "minSellingPrice": 80,
@@ -172,6 +186,7 @@
     {
       "item": "Meat and Seafood Fry",
       "requirements": ["Raw Meat/Raw Bird Drumstick", "Any fish"],
+      "type": "Meat",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 10,
       "minSellingPrice": 30,
@@ -182,6 +197,7 @@
     {
       "item": "Peppered Seafood",
       "requirements": ["Any fish", "Spicy Pepper"],
+      "type": "Fish",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 9,
       "minSellingPrice": 20,
@@ -192,6 +208,7 @@
     {
       "item": "Pepper Steak",
       "requirements": ["Any meat", "Spicy Pepper"],
+      "type": "Meat",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 25,
       "minSellingPrice": 20,
@@ -205,6 +222,7 @@
     {
       "item": "Prime Meat and Seafood Fry",
       "requirements": ["Raw Prime Meat/Raw Bird Thigh", "Any fish"],
+      "type": "Meat",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 11,
       "minSellingPrice": 40,
@@ -215,6 +233,7 @@
     {
       "item": "Steamed Fish",
       "requirements": ["Any fish", "Any vegetable"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 24,
       "minSellingPrice": 20,
@@ -228,6 +247,7 @@
     {
       "item": "Steamed Fruit",
       "requirements": ["Any fruit", "Any vegetable"],
+      "type": "Veggies",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 28,
       "minSellingPrice": 10,
@@ -241,6 +261,7 @@
     {
       "item": "Steamed Meat",
       "requirements": ["Any meat", "Any vegetable"],
+      "type": "Meat",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 28,
       "minSellingPrice": 20,
@@ -254,6 +275,7 @@
     {
       "item": "Steamed Mushrooms",
       "requirements": ["Any mushroom", "Any vegetable"],
+      "type": "Veggies",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 18,
       "minSellingPrice": 10,
@@ -267,6 +289,7 @@
     {
       "item": "Creamy Meat Soup",
       "requirements": ["Any raw meat", "Any herb", "Fresh Milk", "Rock Salt"],
+      "type": "Meat",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 15,
       "minSellingPrice": 40,
@@ -281,6 +304,7 @@
     {
       "item": "Glazed Meat",
       "requirements": ["Any meat", "Courser Bee Honey"],
+      "type": "Meat",
       "minHeartsRestored": 6,
       "maxHeartsRestored": 28,
       "minSellingPrice": 40,
@@ -295,6 +319,7 @@
         "Hylian Rice",
         "Rock Salt"
       ],
+      "type": "Meat",
       "minHeartsRestored": 9,
       "maxHeartsRestored": 20,
       "minSellingPrice": 90,
@@ -308,6 +333,7 @@
     {
       "item": "Gourmet Meat Curry",
       "requirements": ["Raw Gourmet Meat", "Hylian Rice", "Goron Spice"],
+      "type": "Meat",
       "minHeartsRestored": 8,
       "maxHeartsRestored": 20,
       "minSellingPrice": 90,
@@ -323,6 +349,7 @@
         "Fresh Milk",
         "Tabantha Wheat"
       ],
+      "type": "Meat",
       "minHeartsRestored": 9,
       "maxHeartsRestored": 20,
       "minSellingPrice": 110,
@@ -333,6 +360,7 @@
     {
       "item": "Gourmet Poultry Curry",
       "requirements": ["Raw Whole Bird", "Hylian Rice", "Goron Spice"],
+      "type": "Meat",
       "minHeartsRestored": 8,
       "maxHeartsRestored": 20,
       "minSellingPrice": 90,
@@ -348,6 +376,7 @@
         "Goat Butter",
         "Hylian Rice"
       ],
+      "type": "Meat",
       "minHeartsRestored": 10,
       "maxHeartsRestored": 16,
       "minSellingPrice": 110,
@@ -362,6 +391,7 @@
         "Hylian Rice",
         "Rock Salt"
       ],
+      "type": "Meat",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 8,
       "minSellingPrice": 30,
@@ -375,6 +405,7 @@
     {
       "item": "Meat Curry",
       "requirements": ["Raw Meat", "Hylian Rice", "Goron Spice"],
+      "type": "Meat",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 8,
       "minSellingPrice": 40,
@@ -390,6 +421,7 @@
         "Goat Butter",
         "Rock Salt"
       ],
+      "type": "Meat",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 14,
       "minSellingPrice": 40,
@@ -405,6 +437,7 @@
         "Fresh Milk",
         "Tabantha Wheat"
       ],
+      "type": "Meat",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 10,
       "minSellingPrice": 40,
@@ -415,6 +448,7 @@
     {
       "item": "Meat-Stuffed Pumpkin",
       "requirements": ["Any raw meat", "Fortified Pumpkin"],
+      "type": "Meat",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 27,
       "minSellingPrice": 30,
@@ -429,6 +463,7 @@
     {
       "item": "Meaty Rice Balls",
       "requirements": ["Any raw meat", "Hylian Rice"],
+      "type": "Meat",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 26,
       "minSellingPrice": 20,
@@ -444,6 +479,7 @@
         "Hylian Rice",
         "Goat Butter"
       ],
+      "type": "Meat",
       "minHeartsRestored": 6,
       "maxHeartsRestored": 8,
       "minSellingPrice": 40,
@@ -459,6 +495,7 @@
         "Goat Butter",
         "Hylian Rice"
       ],
+      "type": "Meat",
       "minHeartsRestored": 6,
       "maxHeartsRestored": 8,
       "minSellingPrice": 40,
@@ -473,6 +510,7 @@
         "Hylian Rice",
         "Rock Salt"
       ],
+      "type": "Meat",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 11,
       "minSellingPrice": 50,
@@ -486,6 +524,7 @@
     {
       "item": "Prime Meat Curry",
       "requirements": ["Raw Prime Meat", "Hylian Rice", "Goron Spice"],
+      "type": "Meat",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 11,
       "minSellingPrice": 50,
@@ -501,6 +540,7 @@
         "Fresh Milk",
         "Tabantha Wheat"
       ],
+      "type": "Meat",
       "minHeartsRestored": 6,
       "maxHeartsRestored": 12,
       "minSellingPrice": 60,
@@ -511,6 +551,7 @@
     {
       "item": "Prime Poultry Curry",
       "requirements": ["Raw Bird Thigh", "Hylian Rice", "Goron Spice"],
+      "type": "Meat",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 11,
       "minSellingPrice": 50,
@@ -526,6 +567,7 @@
         "Goat Butter",
         "Hylian Rice"
       ],
+      "type": "Meat",
       "minHeartsRestored": 7,
       "maxHeartsRestored": 10,
       "minSellingPrice": 60,
@@ -536,6 +578,7 @@
     {
       "item": "Salt-Grilled Gourmet Meat",
       "requirements": ["Raw Gourmet Meat/Raw Whole Bird", "Rock Salt"],
+      "type": "Meat",
       "minHeartsRestored": 9,
       "maxHeartsRestored": 24,
       "minSellingPrice": 70,
@@ -549,6 +592,7 @@
     {
       "item": "Salt-Grilled Meat",
       "requirements": ["Raw Meat/Raw Bird Drumstick", "Rock Salt"],
+      "type": "Meat",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 8,
       "minSellingPrice": 20,
@@ -562,6 +606,7 @@
     {
       "item": "Salt-Grilled Prime Meat",
       "requirements": ["Raw Prime Meat/Raw Bird Thigh", "Rock Salt"],
+      "type": "Meat",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 12,
       "minSellingPrice": 30,
@@ -580,6 +625,7 @@
         "Fresh Milk",
         "Tabantha Wheat"
       ],
+      "type": "Fish",
       "minHeartsRestored": "Full",
       "maxHeartsRestored": "recovery",
       "minSellingPrice": 60,
@@ -593,6 +639,7 @@
     {
       "item": "Crab Omelet with Rice",
       "requirements": ["Any crab", "Bird Egg", "Rock Salt", "Hylian Rice"],
+      "type": "Fish",
       "minHeartsRestored": 6,
       "maxHeartsRestored": 14,
       "minSellingPrice": 40,
@@ -603,6 +650,7 @@
     {
       "item": "Crab Stir-Fry",
       "requirements": ["Any crab", "Goron Spice"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 26,
       "minSellingPrice": 30,
@@ -613,6 +661,7 @@
     {
       "item": "Crab Risotto",
       "requirements": ["Any crab", "Rock Salt", "Hylian Rice", "Goat Butter"],
+      "type": "Fish",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 10,
       "minSellingPrice": 50,
@@ -626,6 +675,7 @@
     {
       "item": "Creamy Seafood Soup",
       "requirements": ["Any seafood", "Any herb", "Rock Salt", "Fresh Milk"],
+      "type": "Fish",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 22,
       "minSellingPrice": 20,
@@ -645,6 +695,7 @@
         "Goat Butter",
         "Tabantha Wheat"
       ],
+      "type": "Fish",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 6,
       "minSellingPrice": 40,
@@ -655,6 +706,7 @@
     {
       "item": "Glazed Seafood",
       "requirements": ["Any seafood", "Courser Bee Honey"],
+      "type": "Fish",
       "minHeartsRestored": 6,
       "maxHeartsRestored": 18,
       "minSellingPrice": 30,
@@ -669,6 +721,7 @@
     {
       "item": "Porgy Meunière",
       "requirements": ["Any porgy", "Goat Butter", "Tabantha Wheat"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 6,
       "minSellingPrice": 40,
@@ -679,6 +732,7 @@
     {
       "item": "Salmon Meunière",
       "requirements": ["Hearty Salmon", "Goat Butter", "Tabantha Wheat"],
+      "type": "Fish",
       "minHeartsRestored": "Full",
       "maxHeartsRestored": "recovery",
       "minSellingPrice": 40,
@@ -697,6 +751,7 @@
         "Hylian Rice",
         "Goat Butter"
       ],
+      "type": "Fish",
       "minHeartsRestored": "Full",
       "maxHeartsRestored": "recovery",
       "minSellingPrice": 50,
@@ -710,6 +765,7 @@
     {
       "item": "Salt-Grilled Crab",
       "requirements": ["Any crab", "Rock Salt"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 26,
       "minSellingPrice": 30,
@@ -720,6 +776,7 @@
     {
       "item": "Salt-Grilled Fish",
       "requirements": ["Any fish", "Rock Salt"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 14,
       "minSellingPrice": 20,
@@ -733,6 +790,7 @@
     {
       "item": "Seafood Meunière",
       "requirements": ["Any seafood", "Goat Butter", "Tabantha Wheat"],
+      "type": "Fish",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 6,
       "minSellingPrice": 40,
@@ -746,6 +804,7 @@
     {
       "item": "Seafood Rice Balls",
       "requirements": ["Any fish", "Hylian Rice"],
+      "type": "Fish",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 10,
       "minSellingPrice": 20,
@@ -760,6 +819,7 @@
         "Hylian Rice",
         "Goron Spice"
       ],
+      "type": "Fish",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 20,
       "minSellingPrice": 40,
@@ -777,6 +837,7 @@
         "Hylian Rice",
         "Rock Salt"
       ],
+      "type": "Fish",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 18,
       "minSellingPrice": 40,
@@ -796,6 +857,7 @@
         "Goat Butter",
         "Hylian Rice"
       ],
+      "type": "Fish",
       "minHeartsRestored": 12,
       "maxHeartsRestored": 12,
       "minSellingPrice": 100,
@@ -811,6 +873,7 @@
         "Fresh Milk",
         "Tabantha Wheat"
       ],
+      "type": "Veggies",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 15,
       "minSellingPrice": 40,
@@ -825,6 +888,7 @@
     {
       "item": "Copious Fried Wild Greens",
       "requirements": ["Any four different vegetables"],
+      "type": "Veggies",
       "minHeartsRestored": 0.25,
       "maxHeartsRestored": 23,
       "minSellingPrice": 10,
@@ -839,6 +903,7 @@
     {
       "item": "Cream of Vegetable Soup",
       "requirements": ["Any vegetable", "Fresh Milk", "Rock Salt"],
+      "type": "Veggies",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 3,
       "minSellingPrice": 20,
@@ -853,6 +918,7 @@
     {
       "item": "Creamy Heart Soup",
       "requirements": ["Any radish", "Hydromelon", "Voltfruit", "Fresh Milk"],
+      "type": "Veggies",
       "minHeartsRestored": 8,
       "maxHeartsRestored": 20,
       "minSellingPrice": 50,
@@ -867,6 +933,7 @@
     {
       "item": "Curry Pilaf",
       "requirements": ["Hylian Rice", "Goat Butter", "Goron Spice"],
+      "type": "Veggies",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 10,
       "minSellingPrice": 30,
@@ -881,6 +948,7 @@
     {
       "item": "Curry Rice",
       "requirements": ["Hylian Rice", "Goron Spice"],
+      "type": "Veggies",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 14,
       "minSellingPrice": 20,
@@ -895,6 +963,7 @@
     {
       "item": "Fried Wild Greens",
       "requirements": ["Any vegetable"],
+      "type": "Veggies",
       "minHeartsRestored": "0",
       "maxHeartsRestored": 20,
       "minSellingPrice": 10,
@@ -905,6 +974,7 @@
     {
       "item": "Glazed Veggies",
       "requirements": ["Any vegetable", "Courser Bee Honey"],
+      "type": "Veggies",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 20,
       "minSellingPrice": 30,
@@ -918,6 +988,7 @@
     {
       "item": "Herb Sauté",
       "requirements": ["Any vegetable", "Goron Spice"],
+      "type": "Veggies",
       "minHeartsRestored": "0",
       "maxHeartsRestored": 19,
       "minSellingPrice": 10,
@@ -937,6 +1008,7 @@
         "Fresh Milk",
         "Tabantha Wheat"
       ],
+      "type": "Veggies",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 12,
       "minSellingPrice": 40,
@@ -951,6 +1023,7 @@
     {
       "item": "Salt-Grilled Greens",
       "requirements": ["Any vegetable", "Rock Salt"],
+      "type": "Veggies",
       "minHeartsRestored": "0",
       "maxHeartsRestored": 19,
       "minSellingPrice": 10,
@@ -965,6 +1038,7 @@
     {
       "item": "Vegetable Curry",
       "requirements": ["Any carrot or pumpkin", "Goron Spice", "Hylian Rice"],
+      "type": "Veggies",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 22,
       "minSellingPrice": 30,
@@ -979,6 +1053,7 @@
     {
       "item": "Vegetable Omelet",
       "requirements": ["Any vegetable", "Bird Egg", "Goat Butter", "Rock Salt"],
+      "type": "Veggies",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 14,
       "minSellingPrice": 30,
@@ -997,6 +1072,7 @@
         "Hylian Rice",
         "Rock Salt"
       ],
+      "type": "Veggies",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 14,
       "minSellingPrice": 30,
@@ -1011,6 +1087,7 @@
     {
       "item": "Veggie Cream Soup",
       "requirements": ["Any pumpkin or carrot", "Fresh Milk", "Rock Salt"],
+      "type": "Veggies",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 21,
       "minSellingPrice": 20,
@@ -1024,6 +1101,7 @@
     {
       "item": "Veggie Rice Balls",
       "requirements": ["Any vegetable", "Hylian Rice"],
+      "type": "Veggies",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 25,
       "minSellingPrice": 10,
@@ -1042,6 +1120,7 @@
         "Fresh Milk",
         "Rock Salt"
       ],
+      "type": "Veggies",
       "minHeartsRestored": 7,
       "maxHeartsRestored": 19,
       "minSellingPrice": 30,
@@ -1055,6 +1134,7 @@
     {
       "item": "Fragrant Mushroom Sauté",
       "requirements": ["Any mushroom", "Goron Spice"],
+      "type": "Veggies",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 8,
       "minSellingPrice": 20,
@@ -1065,6 +1145,7 @@
     {
       "item": "Glazed Mushrooms",
       "requirements": ["Any mushroom", "Courser Bee Honey"],
+      "type": "Veggies",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 28,
       "minSellingPrice": 30,
@@ -1075,6 +1156,7 @@
     {
       "item": "Mushroom Omelet",
       "requirements": ["Any mushroom", "Bird Egg", "Goat Butter", "Rock Salt"],
+      "type": "Veggies",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 15,
       "minSellingPrice": 30,
@@ -1088,6 +1170,7 @@
     {
       "item": "Mushroom Rice Balls",
       "requirements": ["Any mushroom", "Hylian Rice"],
+      "type": "Veggies",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 14,
       "minSellingPrice": 10,
@@ -1106,6 +1189,7 @@
         "Hylian Rice",
         "Rock Salt"
       ],
+      "type": "Veggies",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 6,
       "minSellingPrice": 30,
@@ -1119,6 +1203,7 @@
     {
       "item": "Salt-Grilled Mushrooms",
       "requirements": ["Any mushroom", "Rock Salt"],
+      "type": "Veggies",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 8,
       "minSellingPrice": 10,
@@ -1129,6 +1214,7 @@
     {
       "item": "Copious Simmered Fruit",
       "requirements": ["Any four different fruits"],
+      "type": "Veggies",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 13,
       "minSellingPrice": 40,
@@ -1142,6 +1228,7 @@
     {
       "item": "Sautéed Peppers",
       "requirements": ["Spicy Pepper"],
+      "type": "Veggies",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 5,
       "minSellingPrice": 10,
@@ -1152,6 +1239,7 @@
     {
       "item": "Simmered Fruit",
       "requirements": ["Any fruit"],
+      "type": "Dessert",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 10,
       "minSellingPrice": 10,
@@ -1162,6 +1250,7 @@
     {
       "item": "Apple Pie",
       "requirements": ["Apple", "Goat Butter", "Cane Sugar", "Tabantha Wheat"],
+      "type": "Dessert",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 12,
       "minSellingPrice": 30,
@@ -1177,6 +1266,7 @@
         "Cane Sugar",
         "Tabantha Wheat"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 15,
       "minSellingPrice": 40,
@@ -1187,6 +1277,7 @@
     {
       "item": "Egg Pudding",
       "requirements": ["Bird Egg", "Fresh Milk", "Cane Sugar"],
+      "type": "Dessert",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 15,
       "minSellingPrice": 30,
@@ -1205,6 +1296,7 @@
         "Tabantha Wheat",
         "Cane Sugar"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 10,
       "minSellingPrice": 30,
@@ -1215,6 +1307,7 @@
     {
       "item": "Fried Bananas",
       "requirements": ["Mighty Bananas", "Cane Sugar", "Tabantha Wheat"],
+      "type": "Dessert",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 15,
       "minSellingPrice": 30,
@@ -1230,6 +1323,7 @@
         "Cane Sugar",
         "Tabantha Wheat"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 15,
       "minSellingPrice": 40,
@@ -1245,6 +1339,7 @@
         "Cane Sugar",
         "Tabantha Wheat"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 10,
       "minSellingPrice": 40,
@@ -1259,6 +1354,7 @@
     {
       "item": "Honey Candy",
       "requirements": ["Courser Bee Honey"],
+      "type": "Dessert",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 18,
       "minSellingPrice": 20,
@@ -1275,6 +1371,7 @@
         "Cane Sugar",
         "Fresh Milk"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 10,
       "maxHeartsRestored": 10,
       "minSellingPrice": 70,
@@ -1285,6 +1382,7 @@
     {
       "item": "Honeyed Apple",
       "requirements": ["Apple", "Courser Bee Honey"],
+      "type": "Dessert",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 17,
       "minSellingPrice": 30,
@@ -1295,6 +1393,7 @@
     {
       "item": "Honeyed Fruits",
       "requirements": ["Any fruit", "Courser Bee Honey"],
+      "type": "Dessert",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 18,
       "minSellingPrice": 30,
@@ -1309,6 +1408,7 @@
     {
       "item": "Hot Buttered Apple",
       "requirements": ["Apple", "Goat Butter"],
+      "type": "Dessert",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 5,
       "minSellingPrice": 70,
@@ -1324,6 +1424,7 @@
         "Cane Sugar",
         "Tabantha Wheat"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 12,
       "minSellingPrice": 30,
@@ -1339,6 +1440,7 @@
         "Cane Sugar",
         "Fresh Milk"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 14,
       "minSellingPrice": 30,
@@ -1354,6 +1456,7 @@
         "Cane Sugar",
         "Tabantha Wheat"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 3,
       "maxHeartsRestored": 10,
       "minSellingPrice": 40,
@@ -1374,6 +1477,7 @@
         "Cane Sugar",
         "Fresh Milk"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 10,
       "maxHeartsRestored": 10,
       "minSellingPrice": 50,
@@ -1389,6 +1493,7 @@
         "Fresh Milk",
         "Tabantha Wheat"
       ],
+      "type": "Veggies",
       "minHeartsRestored": 6,
       "maxHeartsRestored": 12,
       "minSellingPrice": 30,
@@ -1399,6 +1504,7 @@
     {
       "item": "Monster Curry",
       "requirements": ["Monster Extract", "Goron Spice", "Hylian Rice"],
+      "type": "Veggies",
       "minHeartsRestored": 5,
       "maxHeartsRestored": 17,
       "minSellingPrice": 30,
@@ -1409,6 +1515,7 @@
     {
       "item": "Monster Rice Balls",
       "requirements": ["Monster Extract", "Hylian Rice", "Rock Salt"],
+      "type": "Veggies",
       "minHeartsRestored": 0.25,
       "maxHeartsRestored": 17,
       "minSellingPrice": 20,
@@ -1419,6 +1526,7 @@
     {
       "item": "Monster Stew",
       "requirements": ["Monster Extract", "Any meat", "Any seafood"],
+      "type": "Meat",
       "minHeartsRestored": 0.25,
       "maxHeartsRestored": 20,
       "minSellingPrice": 40,
@@ -1437,6 +1545,7 @@
         "Goat Butter",
         "Tabantha Wheat"
       ],
+      "type": "Dessert",
       "minHeartsRestored": 0.25,
       "maxHeartsRestored": 11,
       "minSellingPrice": 30,
@@ -1447,6 +1556,7 @@
     {
       "item": "Dubious Food",
       "requirements": ["Monster parts or incompatiable items"],
+      "type": "",
       "minHeartsRestored": 1,
       "maxHeartsRestored": 1,
       "minSellingPrice": 2,
@@ -1457,6 +1567,7 @@
     {
       "item": "Rock-Hard Food",
       "requirements": ["Gems or wood"],
+      "type": "",
       "minHeartsRestored": 0.25,
       "maxHeartsRestored": 0.25,
       "minSellingPrice": 2,
@@ -1467,6 +1578,7 @@
     {
       "item": "Sautéed Nuts",
       "requirements": ["Acorn or Chickaloo Tree Nut"],
+      "type": "Veggies",
       "minHeartsRestored": 0.5,
       "maxHeartsRestored": 2,
       "minSellingPrice": 8,
@@ -1477,6 +1589,7 @@
     {
       "item": "Wheat Bread",
       "requirements": ["Tabantha Wheat", "Rock Salt"],
+      "type": "Veggies",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 14,
       "minSellingPrice": 10,
@@ -1487,6 +1600,7 @@
     {
       "item": "Omelet",
       "requirements": ["Bird Egg"],
+      "type": "Veggies",
       "minHeartsRestored": 2,
       "maxHeartsRestored": 4,
       "minSellingPrice": 10,
@@ -1497,6 +1611,7 @@
     {
       "item": "Warm Milk",
       "requirements": ["Fresh Milk"],
+      "type": "Veggies",
       "minHeartsRestored": 1.5,
       "maxHeartsRestored": 4,
       "minSellingPrice": 10,
@@ -1507,6 +1622,7 @@
     {
       "item": "Fried Egg and Rice",
       "requirements": ["Hylian Rice", "Bird Egg"],
+      "type": "Veggies",
       "minHeartsRestored": 4,
       "maxHeartsRestored": 4,
       "minSellingPrice": 10,
