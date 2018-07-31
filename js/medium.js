@@ -20,7 +20,7 @@ request.onload = function() {
 /* Pulls image and title of latest blog post (!! since Medium doesn't have an actual feed for just publications, but all things you've written including responses and comments, you'll have to update the array position for all items pulled to get the right position). jsonObj was randomly chosen as the function's parameter name just as a reminder that it's a JSON format and will need to be treated as such (include quotations, etc.) */
 function imgTitle(jsonObj) {
 	//Use jQuery to change src attribute/URL of the img inside of blog section
-	$("#blogImage").attr("src", jsonObj['items'][0]['thumbnail']);
+	$("#blogImage").attr("src", "static/totw.png");  //jsonObj['items'][0]['thumbnail']
 	//Selects h3 header in blog section.
 	var h3 = document.querySelector('#blog h3');
 	//Adds text from JSON title of the article to the h3 selected above
