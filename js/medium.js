@@ -18,17 +18,17 @@ request.onload = function() {
 /* Pulls image and title of latest blog post (!! since Medium doesn't have an actual feed for just publications, but all things you've written including responses and comments, you'll have to update the array position for all items pulled to get the right position). jsonObj was randomly chosen as the function's parameter name just as a reminder that it's a JSON format and will need to be treated as such (include quotations, etc.) */
 function imgTitle(jsonObj) {
 	//Use jQuery to change src attribute/URL of the img inside of blog section
-	$("#blogImage").attr("src", jsonObj['items'][1]['thumbnail']);
+	$("#blogImage").attr("src", jsonObj['items'][0]['thumbnail']);
 	//Selects h3 header in blog section.
 	var h3 = document.querySelector('#blog h3');
 	//Adds text from JSON title of the article to the h3 selected above
-	h3.textContent = jsonObj['items'][1]['title'];
+	h3.textContent = jsonObj['items'][0]['title'];
 }
 
 //Grabs first 200 characters of blog content to put into blog's description/ <p> tags.
 function description(jsonObj) {
 	//Creates a paragraph element, to be populated by the description
-	var description = jsonObj['items'][1]['description'];
+	var description = jsonObj['items'][0]['description'];
 	var newDescription = "";
 
 	/* Creating a true/false flag for use in the for loop to check for any open HTML tags "<" - sets up different loop paths for things that are inside HTML tags vs things that are outside of it (what we want). It gets around a problem with the loop counter; while loops don't work as well. Major thanks to Trevor ^_^ */
@@ -64,5 +64,5 @@ function description(jsonObj) {
 
 /* Updates the URL in the "Read more" hyperlink */
 function url(jsonObj) {
-	$("#blogURL").attr("href", jsonObj['items'][1]['guid']);
+	$("#blogURL").attr("href", jsonObj['items'][0]['guid']);
 }
