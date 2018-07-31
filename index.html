@@ -25,99 +25,170 @@
 	<!-- Navigation bar -->
 		<ul class="nav nav-pills">
 		    <li class="nav-item">
-		    	<a class="nav-link active" href="#about">Home</a>
+		    	<a class="nav-link" href="#" class="portfolio">Home</a>
 		    </li>
 		    <li class="nav-item">
-		    	<a class="nav-link" href="#work">Projects</a>
+		    	<a class="nav-link" href="#" class="resume">Resume</a>
 		    </li>
 		    <li class="nav-item">
-		    	<a class="nav-link" href="#contact">Contact</a>
+		    	<a class="nav-link" href="#" class="contact">Contact</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a class="nav-link" href="#" class="blogSection">Blog</a>
 		    </li>
 		</ul>
 	</nav>
 
 	<!-- About section -->
-	<div class="main-center">
-		<article>
-				<h2 id="h2-top">About</h2>
-			<div class="row">
-				<div class="about">
-					<p>Product manager by day, web developer by night. I'm learning how to make web apps during my #100DaysOfCode challenge. You can follow my progress on Twitter <a href="https://twitter.com/muxin_li">@muxin_li</a></p></div>
-				<div class="avatar">
-					<img src="static/Avatar.png" class="img-fluid photo" alt="A person's face should be here. They lost their photo. Oops.">
+	<a href="#totw"><div class="panel" id="sw"><p>Web + SW Development</p></div></a>
+	<a href="#strategy"><div class="panel" id="biz"><p>Business Strategy + Analysis</p></div></a>
+	<a href="#prototype"><div class="panel" id="ux"><p>UX + Product Management</p></div></a>
+
+	<!-- Portfolio -->
+	<!-- 	Back to the top arrow; hidden until scroll is over 200 px		 -->
+	<a href="#banner" style="text-decoration: none"><div class="up-arrow">^</div></a>
+
+	<article id ="totw">
+		<img src="">
+		<section class="projects">
+			<h3>Taste of the Wild</h3>
+			<p>An app to keep track of your cooking in Breath of the Wild. Made with JavaScript, jQuery, JSON.</p>
+			<div class="read">
+				<a href="https://shrouded-earth-77506.herokuapp.com/">Go to the app.</a></div>
+		</section>
+
+		<section>
+			<div class="image">
+				<img src="">
+			</div>
+			<div class="takeaway">
+				<p>Search and filter recipes</p>
+				<p>JavaScript, jQuery, JSON, and HTML DOM methods.</p>
+			</div>
+		</section>
+
+		<section>
+			<div class="image">
+				<img src="">
+			</div>
+			<div class="takeaway">
+				<p>Remember whether recipes have been cooked</p>
+				<p>HTML5 localStorage for light-weight data storage.</p>
+			</div> 
+		</section>
+
+		<section>
+			<div class="image">
+				<img src="">
+			</div>
+			<div class="takeaway">
+				<p>Responsive design adapts to screen sizes</p>
+				<p>SASS to simplify media queries in CSS.</p>
+			</div>
+		</section>
+	</article>
+
+	<article id="strategy">
+		<section>
+			<div class="image">
+				<h3>"Should we integrate this feature?"</h3>
+			</div>
+			<div class="takeaway">
+				<p>Analyze market data and determine the value of adding an expensive new feature</p>
+				<p>Determined feature was a poor market fit for product's target segment and not a core value proposition to warrant the heavy upfront investment. Saved over $800K in development costs.</p>
+			</div>
+		</section>
+		<section>
+			<div class="image">
+				<h3>How do we show our value to new clients?</h3>
+			</div>
+			<div class="takeaway">
+				<p>Identify value proposition of company's services to key decision makers of client companies</p>
+				<p>Decision makers must see business ROI to validate investment into new services. Analyzed previous client project outcomes for business improvements to communicate to business stakeholders. Was able to quantify project impact on a major client's operations, which had saved over 20% in support call center costs from company's web development services.</p>
+			</div>
+		</section>
+	</article>
+
+	<article id="prototype">
+		<section>
+			<div class="image">
+				<img src="">
+			</div>
+			<div class="takeaway">
+				<p>Wireframe of a website</p>
+				<p>Made with Mockflow.</p>
+			</div>
+		</section>
+
+		<section>
+			<div class="image">
+				<img src="">
+			</div>
+			<div class="takeaway">
+				<p>Prototype of a product family website (with notes)</p>
+				<p>Made with PowerPoint. New positioning for product family required a new online user experience and more integration with other digital assets.</p>
+			</div>
+		</section>
+	</article>
+
+	<footer>
+		<!-- Made w/note -->
+		<div class="note">
+			<p class="d-inline-block">Made w/</p>
+			<img src="static/coffee.png" class="d-inline-block icons">
+			<p class="d-inline-block"> + </p>
+			<img src="static/heart.png" class="d-inline-block icons">
+			<p class="d-inline-block"> by Muxin Li</p>
+		</div>
+	</footer>
+	<!--	Resume	 -->
+	<article id="resume">
+		<h2>Resume</h2>
+	</article>
+
+	<!-- Contact section -->
+	<article id="contact">
+		<h2>Connect with me</h2>
+		<!-- GitHub, LinkedIn, Twitter accounts go here -->
+		<div class="social">
+			<a href="https://github.com/muxinli"><img src="static/github.png" class="logo"></a>
+			<a href="https://www.linkedin.com/in/muxinli/"><img src="static/linkedin.png" class="logo"></a>
+			<a href="https://twitter.com/muxin_li"><img src="static/twitter.png" class="logo"></a>
+		</div>
+		<h2>Send a message</h3>
+		<div class="contact rounded">
+			<form class="form-group row" method="POST" action="https://formspree.io/lesolea@gmail.com">
+				<div class="col-sm-11">
+					<input type="text" class="form-control" name="name" placeholder="Name" /><br>
 				</div>
-			</div>
-		</article>
-
-		<article id="work">
-			<!-- 	Back to the top arrow; hidden until scroll is over 200 px		 -->
-			<a href="#banner" style="text-decoration: none"><div class="up-arrow">^</div></a>
-	
-			<!-- Projects by name and description -->
-			<h2>Projects</h2>
-			<div class="row">
-			
-			<!-- Do not change blog section. JSON and jQuery actions are going on. -->
-			
-			<section id="blog" class="projects">
-				<img src="#" id="blogImage" class="preview img-fluid rounded">
-				<h3></h3>
-				<p></p>
-				<div class="read">
-					<a id="blogURL" href="#">Read more...</a></div>
-			</section>
-
-			<section class="projects">
-				<img src="https://nintendowire.com/wp-content/uploads/2016/09/Banner-Zelda-BreathOfTheWild-Cooking.jpg" class="preview img-fluid rounded">
-				<h3>Taste of the Wild</h3>
-				<p>A coding project inspired by Zelda; TBD.</p>
-				<div class="read">
-					<a href="#">Read more...</a></div>
-			</section>
-			</div>			
-			<!-- Contact section -->
-			<section>
-				<h2 id="contact">Contact me</h2>
-				<div class="contact rounded">
-					<form class="form-group row" method="POST" action="https://formspree.io/lesolea@gmail.com">
-					    <div class="col-sm-11">
-					   		<input type="text" class="form-control" name="name" placeholder="Name" /><br>
-						</div>
-					    <div class="col-sm-11">
-						   <input type="email" class="form-control" name="email" placeholder="Email (optional)" /><br>
-						</div>
-						<div class="col-sm-11">
-						   <textarea class="form-control" name="message" placeholder="Message (if offering web projects, include contact info)" /></textarea>
-						   <input type="hidden" name="_subject" value="New message!" />
-						   <input type="text" name="_gotcha" style="display:none" />
-						   <input type="hidden" name="_next" value="https://muxinli.github.io/thank_you.html" />
-						</div>
-						<!-- Send button -->
-						<button type="submit" class="submit btn btn-success">Submit</button>
-						
-					</form>
+				<div class="col-sm-11">
+				   <input type="email" class="form-control" name="email" placeholder="Email" /><br>
 				</div>
-			</section>
+				<div class="col-sm-11">
+				   <textarea class="form-control" name="message" placeholder="Message" /></textarea>
+				   <input type="hidden" name="_subject" value="New message!" />
+				   <input type="text" name="_gotcha" style="display:none" />
+				   <input type="hidden" name="_next" value="https://muxinli.github.io/thank_you.html" />
+				</div>
+				<!-- Send button -->
+				<button type="submit" class="submit btn btn-success">Submit</button>
 
-		</article>
+			</form>
+		</div>
+	</article>
 
-		<footer>
-			<!-- Made w/note -->
-			<div class="note">
-				<p class="d-inline-block">Made w/</p>
-				<img src="static/coffee.png" class="d-inline-block icons">
-				<p class="d-inline-block"> + </p>
-				<img src="static/heart.png" class="d-inline-block icons">
-				<p class="d-inline-block"> by Muxin Li</p>
-			</div>
-			<!-- GitHub, LinkedIn accounts go here -->
-			<div class="social">
-				<a href="https://github.com/muxinli"><img src="static/github.png" class="logo"></a>
-				<a href="https://www.linkedin.com/in/muxinli/"><img src="static/linkedin.png" class="logo"></a>
-				<a href="https://twitter.com/muxin_li"><img src="static/twitter.png" class="logo"></a>
-			</div>
-		</footer>
-	</div>
+	<!-- Blog -->
+	<article id="blogSection">
+		<h2>Blog</h2>
+		<section id="blog" class="projects">
+			<img src="#" id="blogImage" class="preview img-fluid rounded">
+			<h3></h3>
+			<p></p>
+			<div class="read">
+				<a id="blogURL" href="#">Read more...</a></div>
+		</section>
+
+	</article>
 </body>
 
 </html>
