@@ -66,5 +66,5 @@ function description(jsonObj) {
 
 /* Updates the URL in the "Read more" hyperlink */
 function url(jsonObj) {
-	$("#blogURL").attr("href", jsonObj['items'][1]['guid']);
+	$("#blogURL").attr("href", jsonObj['items'][0]['guid']);
 }
