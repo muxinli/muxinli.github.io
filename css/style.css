@@ -18,28 +18,30 @@ a:visited {
 }
 a:link {
   text-decoration: none;
+  font-size: 18px;
+}
+a:hover {
+  cursor: pointer;
 }
 
 .panel {
   width: 100vw;
-  height: 24vh;
+  height: 25vh;
 }
 .panel p {
   text-align: center;
   font-size: 24px;
   color: white;
+  padding-top: 15%;
 }
 .panel#sw {
   background-color: #ff1a8c;
-  padding-top: 13%;
 }
 .panel#biz {
   background-color: #1a8cff;
-  padding-top: 9%;
 }
 .panel#ux {
   background-color: #00e600;
-  padding-top: 13%;
 }
 
 h2 {
@@ -53,6 +55,7 @@ h3 {
   font-family: "Muli", sans-serif;
   font-weight: 300;
   margin-top: 5%;
+  text-align: center;
 }
 
 p, .form-control, .nav-link, a {
@@ -112,6 +115,45 @@ footer {
 #portfolio {
   text-align: center;
 }
+#portfolio img {
+  display: block;
+  margin: auto;
+  width: 90vw;
+}
+#portfolio #ux, #portfolio #totw, #portfolio #strategy, #portfolio #prototype {
+  margin-bottom: 20%;
+}
+#portfolio .takeaway, #portfolio .projects p {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+#portfolio h4 {
+  margin: 5% 0;
+  text-align: center;
+}
+#portfolio .note {
+  margin: 15% auto 15% auto;
+  text-align: center;
+  font-size: 20px;
+}
+@media screen and (min-width: 600px) {
+  #portfolio .note {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 1%;
+  }
+}
+#portfolio .note .icons {
+  width: 40px;
+  margin-bottom: 3%;
+}
+@media screen and (min-width: 600px) {
+  #portfolio .note .icons {
+    width: 32px;
+    margin-bottom: 3%;
+  }
+}
 
 .read {
   text-align: right;
@@ -124,84 +166,98 @@ footer {
   }
 }
 
-#party {
-  margin-top: 2%;
-  margin-bottom: 2%;
-}
-
 .up-arrow {
-  font-size: 24px;
-  color: #989898;
+  background-color: rgba(255, 255, 255, 0.5);
   position: sticky;
-  top: 10px;
+  top: 0;
+}
+.up-arrow p {
+  transform: scaleY(0.5);
+  color: gray;
+  font-size: 24px;
   text-align: center;
+  position: relative;
 }
 @media screen and (min-width: 1024px) {
-  .up-arrow {
+  .up-arrow p {
     font-size: 28px;
   }
 }
 @media screen and (min-width: 1280px) {
-  .up-arrow {
+  .up-arrow p {
     font-size: 30px;
   }
 }
 
-.main-center {
-  margin: 0% 10% 0% 10%;
-  padding-top: 3%;
+#resume button {
+  margin: 5% auto;
+  display: block;
 }
-@media screen and (min-width: 1024px) {
-  .main-center {
-    margin: 0% 10% 0% 10%;
-    padding-top: 1%;
-    background-color: #E8F8F5;
-  }
+#resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
+  width: 100px;
+  display: inline-block;
+  margin: 5%;
 }
-@media screen and (min-width: 1280px) {
-  .main-center {
-    margin: 0% 10% 0% 10%;
-  }
-}
-
-.about {
-  padding-left: 10%;
-  padding-right: 10%;
+#resume #code2 {
   text-align: center;
 }
-@media screen and (min-width: 600px) {
-  .about {
-    max-width: 50%;
-  }
+#resume #code2 div {
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
 }
-@media screen and (min-width: 1280px) {
-  .about {
-    max-width: 60%;
-  }
+#resume #code2 img {
+  width: 50px;
+  display: inline-block;
+  margin: 5%;
+}
+#resume #code2 p {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+#resume h4 {
+  display: inline-block;
+  width: 55%;
+  vertical-align: middle;
+  text-align: center;
+}
+#resume i {
+  font-size: 20px;
+}
+#resume p {
+  text-align: center;
+  margin: auto auto 5% auto;
+  width: 90%;
+}
+#resume #rice, #resume #uva {
+  width: 250px;
+  display: block;
+  margin: 10% auto;
 }
 
-.avatar {
-  margin-left: auto;
-  margin-right: auto;
+#blogSection {
+  margin: auto;
+  text-align: center;
+  width: 90%;
 }
-@media screen and (min-width: 600px) {
-  .avatar {
-    padding-right: 10%;
+@media only screen and (min-width: 768px) {
+  #blogSection {
+    width: 50%;
   }
 }
-
-.preview {
+#blogSection .preview {
   margin-left: auto;
   margin-right: auto;
   width: 100%;
 }
 @media screen and (min-width: 600px) {
-  .preview {
+  #blogSection .preview {
     width: 60%;
   }
 }
 @media screen and (min-width: 720px) {
-  .preview {
+  #blogSection .preview {
     width: 75%;
     height: 60%;
   }
@@ -214,20 +270,19 @@ footer {
   width: 25%;
 }
 
-.contact {
+.send {
   background-color: #F0F0F0;
   padding: 1.5%;
-  margin-left: auto;
-  margin-right: auto;
-  width: 100%;
+  margin: 10% auto;
+  width: 90%;
 }
 @media screen and (min-width: 600px) {
-  .contact {
+  .send {
     width: 50%;
   }
 }
 @media screen and (min-width: 1280px) {
-  .contact {
+  .send {
     width: 40%;
   }
 }
@@ -237,33 +292,9 @@ footer {
   width: 94%;
 }
 
-.note {
-  margin: 15% auto 15% auto;
-  text-align: center;
-  font-size: 20px;
-}
-@media screen and (min-width: 600px) {
-  .note {
-    display: inline-block;
-    margin-top: 20px;
-    margin-left: 1%;
-  }
-}
-
-.icons {
-  width: 40px;
-  margin-bottom: 3%;
-}
-@media screen and (min-width: 600px) {
-  .icons {
-    width: 32px;
-    margin-bottom: 3%;
-  }
-}
-
 .social {
-  padding-bottom: 10%;
-  padding-left: 18%;
+  padding: 5% 18% 10% 18%;
+  text-align: center;
 }
 @media screen and (min-width: 600px) {
   .social {
@@ -281,20 +312,38 @@ footer {
   }
 }
 
+.main-center {
+  padding-top: 3%;
+}
+@media screen and (min-width: 1024px) {
+  .main-center {
+    margin: 0% 10% 0% 10%;
+    padding-top: 1%;
+    background-color: #E8F8F5;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-center {
+    margin: 0% 10% 0% 10%;
+  }
+}
+.main-center #party {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.main-center .work {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
 @media only screen and (min-width: 768px) {
-  .work {
+  .main-center .work {
     margin-top: -5%;
   }
 }
 @media only screen and (min-width: 992px) {
-  .work {
+  .main-center .work {
     margin-top: -5%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .projects {
-    width: 50%;
   }
 }
 
