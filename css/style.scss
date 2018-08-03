@@ -1,33 +1,8 @@
-$break-phone: 600px;
+$break-phone: 568px;
 $break-tablet: 720px;
 $break-tablet-wide: 1024px;
 $break-desktop: 1280px;
 $break-large: 1900px;
-
-body {
-  background-color: #D4E6F1;
-}
-
-h1 {
-  font-family: 'Muli', sans-serif;
-  font-weight: 300;
-  color: #2471A3;
-  text-align: left;
-  padding-bottom: 2%;
-}
-
-a {
-  text-decoration: none;
-  &:visited {
-    text-decoration: none;
-  }
-  &:link {
-    text-decoration: none;
-  }
-  &:hover {
-    cursor: pointer;
-  }
-}
 
 // .about {
 //   padding-left: 10%;
@@ -49,14 +24,62 @@ a {
 //   }
 // }
 
+body {
+  background-color: #D4E6F1;
+}
+
+
+h1, h2, h3, p, .form-control, .nav-link, a {
+  font-family: 'Muli', sans-serif;
+}
+
+h1 {
+  font-weight: 300;
+  color: #2471A3;
+  text-align: left;
+  padding-bottom: 2%;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
+}
+
+h3 {
+  font-weight: 300;
+  margin-top: 5%;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  &:visited {
+    text-decoration: none;
+  }
+  &:link {
+    text-decoration: none;
+  }
+  &:hover {
+    cursor: pointer;
+  }
+}
+
 .panel {
   width: 100vw;
   height: 25vh;
+  display: flex;
+  align-items: center;
+
+  @media screen and (min-width: $break-phone) {
+    height: 27vh;
+  }
+
   p{
-    text-align: center;
+    // text-align: center;
     font-size: 24px;
     color: white;
-    padding-top: 15%;
+    margin: auto;
   }
   &#sw {
     background-color: #ff1a8c;
@@ -69,36 +92,10 @@ a {
   }
 }
 
-h2 {
-  font-family: 'Muli', sans-serif;
-  text-align: center;
-  margin-bottom: 5%;
-  margin-top: 3%;
-}
-
-h3 {
-  font-family: 'Muli', sans-serif;
-  font-weight: 300;
-  margin-top: 5%;
-  text-align: center;
-}
-
-p, .form-control, .nav-link, a {
-  font-family: 'Muli', sans-serif;
-}
-
-img.img-fluid.photo {
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-}
-
-form {
-  text-align: center;
-}
 
 footer {
   margin: 3% 10% 0 10%;
+
   @media screen and (min-width: $break-tablet) {
         margin: 5% 20% 0 20%;
   }
@@ -128,6 +125,10 @@ footer {
   li {
     width: 50vw;
     text-align: center;
+
+    @media screen and (min-width: $break-phone) {
+      width: 25vw;
+    }
   }
 }
 
@@ -138,17 +139,42 @@ footer {
     display: block;
     margin: auto;
     width: 90vw;
+
+    @media screen and (min-width: $break-tablet) {
+      width: 50vw;
+      display: inline-block;
+      margin: 5%;
+    }
   }
 
   #ux, #totw, #strategy, #prototype {
     margin-bottom: 20%;
+
+    @media screen and (min-width: $break-phone) {
+      margin-bottom: 10%;
+    }
   } 
 
   .takeaway, .projects p {
     display: block;
     margin: auto;
     width: 90%;
+
+    @media screen and (min-width: $break-tablet) {
+      width: 30vw;
+      display: inline-block;
+      vertical-align: top;
+      margin-top: 5%;
+    }
   }
+
+  #strategy {
+    .takeaway, p {
+    width: 80vw;
+    display: block;
+    }
+  }
+
 
   h4 {
     margin: 5% 0;
@@ -212,10 +238,19 @@ footer {
     display: block;
   }
 
+  h5 {
+    text-align: center;
+    color: #008080;
+  }
+
   #code img, #pm img, #analytics img, #design img {
     width: 100px;
     display: inline-block;
     margin: 5%;
+
+    @media screen and (min-width: $break-phone) {
+      margin: 5% 5% 5% 15%;
+    }
   }
 
   #code2 {
@@ -245,6 +280,11 @@ footer {
     width: 55%;
     vertical-align: middle;
     text-align: center;
+
+    @media screen and (min-width: $break-phone) {
+      width: 60%;
+      text-align: left;
+    }
   }
 
   i {
@@ -257,11 +297,14 @@ footer {
     width: 90%;
   }
 
-
   #rice, #uva {
     width: 250px; 
     display: block; 
     margin: 10% auto;
+
+    @media screen and (min-width: $break-phone) {
+      width: 55%;
+    }
   }
 }
 
@@ -287,11 +330,14 @@ footer {
   }
 }
 
-.submit {
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 5%;
-  width: 25%;
+img.img-fluid.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+form {
+  text-align: center;
 }
 
 .send {
@@ -300,26 +346,39 @@ footer {
   margin: 10% auto;
   width: 90%;
   @media screen and (min-width: $break-phone) {
-    width: 50%;
+    width: 60%;
+    margin: 0 auto 5% auto;
   }
   @media screen and (min-width: $break-desktop) {
     width: 40%;
   }
-}
+  
+  .form-control {
+    margin: 1% 3% 1% 3%;
+    width: 94%;
 
-.form-control {
-  margin: 1% 3% 1% 3%;
-  width: 94%;
+    @media screen and (min-width: $break-phone) {
+      width: 100%;
+    }
+  }
+
+  .submit {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    width: 25%;
+  }
 }
 
 .social {
   padding: 5% 18% 10% 18%;
   text-align: center;
+  
   @media screen and (min-width: $break-phone) {
-    float: right;
-    display: inline-block;
+    padding: 0;
   }
 }
+
 .logo {
   width: 25%;
   @media screen and (min-width: $break-phone) {
