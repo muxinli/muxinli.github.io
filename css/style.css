@@ -24,6 +24,11 @@ h3 {
   margin-top: 5%;
   text-align: center;
 }
+@media screen and (min-width: 1024px) {
+  h3 {
+    margin: 2%;
+  }
+}
 
 a {
   text-decoration: none;
@@ -47,6 +52,11 @@ a:hover {
 @media screen and (min-width: 568px) {
   .panel {
     height: 27vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .panel {
+    height: 28vh;
   }
 }
 .panel p {
@@ -124,6 +134,15 @@ footer {
     margin: 5%;
   }
 }
+@media screen and (min-width: 720px) {
+  #portfolio #appinfo {
+    margin-top: -2%;
+    width: 60%;
+  }
+}
+#portfolio #url {
+  margin: 2% auto 5% auto;
+}
 #portfolio #ux, #portfolio #totw, #portfolio #strategy, #portfolio #prototype {
   margin-bottom: 20%;
 }
@@ -142,7 +161,7 @@ footer {
     width: 30vw;
     display: inline-block;
     vertical-align: top;
-    margin-top: 5%;
+    margin-top: 3%;
   }
 }
 #portfolio #strategy .takeaway, #portfolio #strategy p {
@@ -182,7 +201,7 @@ footer {
 }
 @media screen and (min-width: 720px) {
   .read {
-    margin-bottom: 3%;
+    margin: 5% auto;
   }
 }
 
@@ -216,6 +235,7 @@ footer {
 #resume h5 {
   text-align: center;
   color: #008080;
+  margin-bottom: 5%;
 }
 #resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
   width: 100px;
@@ -227,8 +247,19 @@ footer {
     margin: 5% 5% 5% 15%;
   }
 }
+@media screen and (min-width: 720px) {
+  #resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
+    margin: 2% 5% 2% 20%;
+  }
+}
 #resume #code2 {
   text-align: center;
+}
+@media screen and (min-width: 720px) {
+  #resume #code2 {
+    width: 50%;
+    margin: auto;
+  }
 }
 #resume #code2 div {
   width: 45%;
@@ -265,6 +296,11 @@ footer {
   margin: auto auto 5% auto;
   width: 90%;
 }
+@media screen and (min-width: 720px) {
+  #resume p {
+    margin: 2% auto;
+  }
+}
 #resume #rice, #resume #uva {
   width: 250px;
   display: block;
@@ -272,7 +308,13 @@ footer {
 }
 @media screen and (min-width: 568px) {
   #resume #rice, #resume #uva {
-    width: 55%;
+    width: 35%;
+    margin: 5% auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #resume #rice, #resume #uva {
+    width: 30%;
   }
 }
 
@@ -325,9 +367,20 @@ form {
     margin: 0 auto 5% auto;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .send {
     width: 40%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .send {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .send {
+    width: 20%;
+    padding: 1%;
   }
 }
 .send .form-control {
@@ -353,6 +406,11 @@ form {
 @media screen and (min-width: 568px) {
   .social {
     padding: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .social {
+    padding: 0 0 2% 0;
   }
 }
 

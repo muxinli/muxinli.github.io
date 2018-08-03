@@ -50,6 +50,10 @@ h3 {
   font-weight: 300;
   margin-top: 5%;
   text-align: center;
+
+  @media screen and (min-width: $break-tablet-wide) {
+    margin: 2%;
+  }
 }
 
 a {
@@ -76,6 +80,10 @@ a {
 
   @media screen and (min-width: $break-phone) {
     height: 27vh;
+  }
+
+  @media screen and (min-width: $break-tablet-wide) {
+    height: 28vh;
   }
 
   p{
@@ -155,6 +163,17 @@ footer {
     }
   }
 
+  #appinfo {
+    @media screen and (min-width: $break-tablet) {
+      margin-top: -2%; 
+      width: 60%;      
+    }
+  }
+
+  #url {
+    margin: 2% auto 5% auto;
+  }
+
   #ux, #totw, #strategy, #prototype {
     margin-bottom: 20%;
 
@@ -172,7 +191,7 @@ footer {
       width: 30vw;
       display: inline-block;
       vertical-align: top;
-      margin-top: 5%;
+      margin-top: 3%;
     }
   }
 
@@ -217,7 +236,7 @@ footer {
   margin-bottom: 10%;
   
   @media screen and (min-width: $break-tablet) {
-    margin-bottom: 3%;
+    margin: 5% auto;
   }
 }
 
@@ -254,6 +273,7 @@ footer {
   h5 {
     text-align: center;
     color: #008080;
+    margin-bottom: 5%;
   }
 
   #code img, #pm img, #analytics img, #design img {
@@ -264,10 +284,19 @@ footer {
     @media screen and (min-width: $break-phone) {
       margin: 5% 5% 5% 15%;
     }
+
+    @media screen and (min-width: $break-tablet) {
+      margin: 2% 5% 2% 20%;
+    }
   }
 
   #code2 {
     text-align: center;
+
+    @media screen and (min-width: $break-tablet) {
+      width: 50%;
+      margin: auto;
+    }
 
     div {
       width: 45%;
@@ -308,6 +337,10 @@ footer {
     text-align: center;
     margin: auto auto 5% auto;
     width: 90%;
+
+    @media screen and (min-width: $break-tablet) {
+      margin: 2% auto;
+    }
   }
 
   #rice, #uva {
@@ -316,7 +349,12 @@ footer {
     margin: 10% auto;
 
     @media screen and (min-width: $break-phone) {
-      width: 55%;
+      width: 35%;
+      margin: 5% auto;
+    }
+
+    @media screen and (min-width: $break-tablet-wide) {
+      width: 30%;
     }
   }
 }
@@ -367,8 +405,17 @@ form {
     margin: 0 auto 5% auto;
   }
   
-  @media screen and (min-width: $break-desktop) {
+  @media screen and (min-width: $break-tablet-wide) {
     width: 40%;
+  }
+
+  @media screen and (min-width: $break-desktop) {
+    width: 30%;
+  }
+
+  @media screen and (min-width: $break-large) {
+    width: 20%;
+    padding: 1%;
   }
   
   .form-control {
@@ -394,6 +441,10 @@ form {
   
   @media screen and (min-width: $break-phone) {
     padding: 0;
+  }
+
+  @media screen and (min-width: $break-tablet-wide) {
+    padding: 0 0 2% 0;
   }
 }
 
