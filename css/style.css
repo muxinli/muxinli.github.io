@@ -59,6 +59,11 @@ a:hover {
     height: 28vh;
   }
 }
+@media screen and (min-width: 1280px) {
+  .panel {
+    height: 29vh;
+  }
+}
 .panel p {
   font-size: 24px;
   color: white;
@@ -252,6 +257,11 @@ footer {
     margin: 2% 5% 2% 20%;
   }
 }
+@media screen and (min-width: 1280px) {
+  #resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
+    margin: 2% 5% 2% 25%;
+  }
+}
 #resume #code2 {
   text-align: center;
 }
@@ -315,6 +325,11 @@ footer {
 @media screen and (min-width: 1024px) {
   #resume #rice, #resume #uva {
     width: 30%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #resume #rice, #resume #uva {
+    width: 20%;
   }
 }
 

@@ -86,6 +86,10 @@ a {
     height: 28vh;
   }
 
+  @media screen and (min-width: $break-desktop) {
+    height: 29vh;
+  }
+
   p{
     // text-align: center;
     font-size: 24px;
@@ -288,6 +292,10 @@ footer {
     @media screen and (min-width: $break-tablet) {
       margin: 2% 5% 2% 20%;
     }
+
+    @media screen and (min-width: $break-desktop) {
+      margin: 2% 5% 2% 25%;
+    }
   }
 
   #code2 {
@@ -355,6 +363,10 @@ footer {
 
     @media screen and (min-width: $break-tablet-wide) {
       width: 30%;
+    }
+
+    @media screen and (min-width: $break-desktop) {
+      width: 20%;
     }
   }
 }
