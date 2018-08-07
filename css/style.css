@@ -1,481 +1,476 @@
-/* Portfolio CSS */
 body {
-	background-color: #D4E6F1;
+  background-color: #D4E6F1;
+}
+
+h1, h2, h3, p, .form-control, .nav-link, a {
+  font-family: "Muli", sans-serif;
 }
 
 h1 {
-    font-family: 'Muli', sans-serif;
-    font-weight: 300;
-    color: #2471A3;
-    text-align: left;
-    padding-bottom: 2%;
+  font-weight: 300;
+  color: #2471A3;
+  text-align: left;
+  padding-bottom: 2%;
 }
 
 h2 {
-	font-family: 'Muli', sans-serif;
-	text-align: center;
-	margin-bottom: 5%;
-	margin-top: 3%;
+  text-align: center;
+  margin-bottom: 5%;
+  margin-top: 3%;
 }
 
 h3 {
-	font-family: 'Muli', sans-serif;
-	font-weight: 300;
-	margin-top: 5%;
+  font-weight: 300;
+  margin-top: 5%;
+  text-align: center;
+}
+@media screen and (min-width: 1024px) {
+  h3 {
+    margin: 2%;
+  }
 }
 
-p, .form-control, .nav-link, a {
-	font-family: 'Muli', sans-serif;
+a {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:link {
+  text-decoration: none;
+}
+a:hover {
+  cursor: pointer;
 }
 
-img.img-fluid.photo {
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
+.panel {
+  width: 100vw;
+  height: 25vh;
+  display: flex;
+  align-items: center;
 }
-
-form {
-	text-align: center;
+@media screen and (min-width: 568px) {
+  .panel {
+    height: 27vh;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .panel {
+    height: 28vh;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .panel {
+    height: 29vh;
+  }
+}
+.panel p {
+  font-size: 24px;
+  color: white;
+  margin: auto;
+}
+.panel#sw {
+  background-color: #ff1a8c;
+}
+.panel#biz {
+  background-color: #1a8cff;
+}
+.panel#ux {
+  background-color: #00e600;
 }
 
 footer {
-	margin: 3% 10% 0 10%;
-
+  margin: 3% 10% 0 10%;
+}
+@media screen and (min-width: 720px) {
+  footer {
+    margin: 5% 20% 0 20%;
+  }
+}
+@media screen and (min-width: 1024px) {
+  footer {
+    margin: 5% 20% 0 20%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  footer {
+    margin: 5% 25% 0 25%;
+  }
 }
 
 #banner {
-	padding-top: 3%;
-	background-color: #F2F3F4;
+  padding-top: 3%;
+  background-color: #F2F3F4;
+  width: 100vw;
 }
 
 .name {
-	margin-left: 10%;
+  text-align: center;
 }
 
 .nav {
-	margin-top: -2.5%;
-	padding: 1%;
-	padding-left: 10%;
-	background-color: white;
+  margin-top: -2.5%;
+  background-color: white;
+  justify-content: center;
+  width: 100%;
+}
+.nav li {
+  width: 50vw;
+  text-align: center;
+}
+@media screen and (min-width: 568px) {
+  .nav li {
+    width: 25vw;
+  }
 }
 
-#work {
-	text-align: center;
+#portfolio {
+  text-align: center;
 }
-
+#portfolio img {
+  display: block;
+  margin: auto;
+  width: 90vw;
+}
+@media screen and (min-width: 720px) {
+  #portfolio img {
+    width: 50vw;
+    display: inline-block;
+    margin: 5%;
+  }
+}
+@media screen and (min-width: 720px) {
+  #portfolio #appinfo {
+    margin-top: -2%;
+    width: 60%;
+  }
+}
+#portfolio #url {
+  margin: 2% auto 5% auto;
+}
+#portfolio #ux, #portfolio #totw, #portfolio #strategy, #portfolio #prototype {
+  margin-bottom: 20%;
+}
+@media screen and (min-width: 568px) {
+  #portfolio #ux, #portfolio #totw, #portfolio #strategy, #portfolio #prototype {
+    margin-bottom: 10%;
+  }
+}
+#portfolio .takeaway, #portfolio .projects p {
+  display: block;
+  margin: auto;
+  width: 90%;
+}
+@media screen and (min-width: 720px) {
+  #portfolio .takeaway, #portfolio .projects p {
+    width: 30vw;
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3%;
+  }
+}
+#portfolio #strategy .takeaway, #portfolio #strategy p {
+  width: 80vw;
+  display: block;
+}
+#portfolio h4 {
+  margin: 5% 0;
+  text-align: center;
+}
+#portfolio .note {
+  margin: 15% auto 15% auto;
+  text-align: center;
+  font-size: 20px;
+}
+@media screen and (min-width: 568px) {
+  #portfolio .note {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 1%;
+  }
+}
+#portfolio .note .icons {
+  width: 40px;
+  margin-bottom: 3%;
+}
+@media screen and (min-width: 568px) {
+  #portfolio .note .icons {
+    margin: 0;
+  }
+}
 
 .read {
-	text-align: right;
-	padding-right: 15%;
-	margin-bottom: 10%;
+  text-align: right;
+  padding-right: 15%;
+  margin-bottom: 10%;
+}
+@media screen and (min-width: 720px) {
+  .read {
+    margin: 5% auto;
+  }
 }
 
-#party {
-	margin-top: 2%;
-	margin-bottom: 2%;
+.up-arrow {
+  background-color: rgba(255, 255, 255, 0.5);
+  position: sticky;
+  top: 0;
+}
+.up-arrow p {
+  transform: scaleY(0.5);
+  color: gray;
+  font-size: 24px;
+  text-align: center;
+  position: relative;
+}
+@media screen and (min-width: 1024px) {
+  .up-arrow p {
+    font-size: 28px;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .up-arrow p {
+    font-size: 30px;
+  }
 }
 
-/* Extra small devices 600 and down*/
-@media only screen and (max-width: 600px){
-	.up-arrow {
-		visibility: hidden;
-	}
-
-	.main-center {
-	margin: 0% 10% 0% 10%;
-	padding-top: 3%;
-	}
-
-	.about {
-		padding-left: 10%;
-		padding-right: 10%;
-		text-align: center;
-	}
-
-	.avatar {
-		margin-left: auto;
-		margin-right: auto;
-	}
-
-	.preview {
-	    margin-left: auto;
-	    margin-right: auto;
-	    width: 100%;
-	}
-
-	.submit {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 5%;
-		width: 25%;
-	}
-
-	.contact {
-		background-color: #F0F0F0;
-		padding: 1.5%;
-		margin-left: auto;
-		margin-right: auto;
-		width: 100%;
-	}
-
-	.form-control {
-		margin: 1% 3% 1% 3%;
-		width: 94%;
-	}
-
-	.note {
-		margin: 15% auto 15% auto;
-		text-align: center;
-		font-size: 20px;
-	}
-
-	.icons{
-		width: 40px;
-		margin-bottom: 3%;
-	}
-
-	.social {
-		padding-bottom: 10%;
-		padding-left: 18%;
-	}
-
-	.logo {
-		width: 25%;
-	}
+#resume button {
+  margin: 5% auto;
+  display: block;
+}
+#resume h5 {
+  text-align: center;
+  color: #008080;
+  margin-bottom: 5%;
+}
+#resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
+  width: 100px;
+  display: inline-block;
+  margin: 5%;
+}
+@media screen and (min-width: 568px) {
+  #resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
+    margin: 5% 5% 5% 15%;
+  }
+}
+@media screen and (min-width: 720px) {
+  #resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
+    margin: 2% 5% 2% 20%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
+    margin: 2% 5% 2% 25%;
+  }
+}
+#resume #code2 {
+  text-align: center;
+}
+@media screen and (min-width: 720px) {
+  #resume #code2 {
+    width: 50%;
+    margin: auto;
+  }
+}
+#resume #code2 div {
+  width: 45%;
+  display: inline-block;
+  vertical-align: middle;
+}
+#resume #code2 img {
+  width: 50px;
+  display: inline-block;
+  margin: 5%;
+}
+#resume #code2 p {
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+#resume h4 {
+  display: inline-block;
+  width: 55%;
+  vertical-align: middle;
+  text-align: center;
+}
+@media screen and (min-width: 568px) {
+  #resume h4 {
+    width: 60%;
+    text-align: left;
+  }
+}
+#resume i {
+  font-size: 20px;
+}
+#resume p {
+  text-align: center;
+  margin: auto auto 5% auto;
+  width: 90%;
+}
+@media screen and (min-width: 720px) {
+  #resume p {
+    margin: 2% auto;
+  }
+}
+#resume #rice, #resume #uva {
+  width: 250px;
+  display: block;
+  margin: 10% auto;
+}
+@media screen and (min-width: 568px) {
+  #resume #rice, #resume #uva {
+    width: 35%;
+    margin: 5% auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  #resume #rice, #resume #uva {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  #resume #rice, #resume #uva {
+    width: 20%;
+  }
 }
 
-/* Small devices 600 and up*/
-@media only screen and (min-width: 600px){
-	.up-arrow {
-		font-size: 30px;
-		color: #989898;
-		margin: 0 auto 0 auto;
-		position: sticky;
-		top: 10px;
-		background-color: white;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-		opacity: .5;
-	}
-
-	.about {
-		padding-left: 10%;
-		max-width: 50%;
-	}
-
-	.avatar {
-		margin-left: auto;
-		padding-right: 10%;
-	}
-
-	.preview {
-	    margin-left: auto;
-	    margin-right: auto;
-	    width: 60%;
-	}
-
-	.submit {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 5%;
-		width: 25%;
-	}
-
-	.contact {
-		background-color: #F0F0F0;
-		padding: 1.5%;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
-
-	.form-control {
-		margin: 1% 3% 1% 3%;
-	}
-
-	.note {
-		display: inline-block;
-		margin-top: 20px;
-		margin-left: 1%;
-	}
-
-	.icons{
-		width: 32px;
-		margin-bottom: 3%;
-	}
-
-	.social {
-		float: right;
-		display: inline-block;
-	}
-
-	.logo {
-		width: 48px;
-	}
+#blogSection {
+  margin: auto;
+  text-align: center;
+  width: 90%;
+}
+@media only screen and (min-width: 768px) {
+  #blogSection {
+    width: 50%;
+  }
+}
+#blogSection .preview {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+@media screen and (min-width: 568px) {
+  #blogSection .preview {
+    width: 60%;
+  }
+}
+@media screen and (min-width: 720px) {
+  #blogSection .preview {
+    width: 75%;
+    height: 60%;
+  }
 }
 
-/* Medium devices 768 and up*/
-@media only screen and (min-width: 768px){
-	.work {
-		margin-top: -5%;
-	}
-
-	.up-arrow {
-		font-size: 30px;
-		color: #989898;
-		margin: 0 auto 0 auto;
-		position: sticky;
-		top: 10px;
-		background-color: white;
-		width: 40px;
-		height: 40px;
-		border-radius: 50%;
-		opacity: .5;
-	}
-
-	.about {
-		padding-left: 10%;
-		max-width: 50%;
-	}
-
-	.avatar {
-		margin-left: auto;
-		padding-right: 10%;
-	}
-
-	.projects {
-		width: 50%;
-	}
-
-	.preview {
-	    margin-left: auto;
-	    margin-right: auto;
-	    width: 75%;
-	    height: 60%;
-	}
-
-	.read {
-		margin-bottom: 3%;
-	}
-
-	.submit {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 5%;
-		width: 25%;
-	}
-
-	.contact {
-		background-color: #F0F0F0;
-		padding: 1.5%;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
-
-	.form-control {
-		margin: 1% 3% 1% 3%;
-	}
-
-	footer {
-		margin: 5% 20% 0 20%;
-
-	}
-	
-	.note {
-		display: inline-block;
-		margin-top: 20px;
-		margin-left: 1%;
-	}
-
-	.icons{
-		width: 32px;
-		margin-bottom: 3%;
-	}
-
-	.social {
-		float: right;
-		display: inline-block;
-	}
-
-	.logo {
-		width: 48px;
-	}
+img.img-fluid.photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
 }
 
-
-/* Large devices 992px and up*/
-@media only screen and (min-width: 992px){
-	.work {
-		margin-top: -5%;
-	}
-
-	.up-arrow {
-		font-size: 40px;
-		color: #989898;
-		margin: 0 auto 0 auto;
-		position: sticky;
-		top: 10px;
-		background-color: white;
-		width: 48px;
-		height: 48px;
-		border-radius: 50%;
-		opacity: .5;
-	}
-
-	.main-center {
-	margin: 0% 10% 0% 10%;
-	padding-top: 1%;
-	background-color: #E8F8F5;
-	}
-
-
-	.about {
-		padding-left: 10%;
-		max-width: 50%;
-	}
-
-	.avatar {
-		margin-left: auto;
-		padding-right: 10%;
-	}
-
-	.projects {
-		width: 50%;
-	}
-
-	.preview {
-	    margin-left: auto;
-	    margin-right: auto;
-	    width: 75%;
-	    height: 60%;
-	}
-
-	.read {
-		margin-bottom: 3%;
-	}
-
-	.submit {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 5%;
-		width: 25%;
-	}
-
-	.contact {
-		background-color: #F0F0F0;
-		padding: 1.5%;
-		margin-left: auto;
-		margin-right: auto;
-		width: 50%;
-	}
-
-	.form-control {
-		margin: 1% 3% 1% 3%;
-	}
-
-	footer {
-		margin: 5% 20% 0 20%;
-	}
-	
-	.note {
-		display: inline-block;
-		margin-top: 20px;
-		margin-left: 1%;
-	}
-
-	.icons{
-		width: 32px;
-		margin-bottom: 3%;
-	}
-
-	.social {
-		float: right;
-		display: inline-block;
-	}
-
-	.logo {
-		width: 48px;
-	}
+form {
+  text-align: center;
 }
 
-/* Extra large devices 1200px and up*/
-@media only screen and (min-width: 1200px){
-	.up-arrow {
-	font-size: 40px;
-	color: #989898;
-	margin: 0 auto 0 auto;
-	position: sticky;
-	top: 10px;
-	background-color: white;
-	width: 60px;
-	height: 60px;
-	border-radius: 50%;
-	opacity: .5;
-	}
-
-	.main-center {
-	margin: 0% 10% 0% 10%;
-	background-color: #E8F8F5;
-	}
-
-	.about {
-		padding-left: 10%;
-		max-width: 60%;
-	}
-
-	.avatar {
-		margin-left: auto;
-		padding-right: 10%;
-	}
-
-	.preview {
-	    margin-left: auto;
-	    margin-right: auto;
-	    width: 75%;
-	}
-
-	.submit {
-		margin-left: auto;
-		margin-right: auto;
-		margin-top: 5%;
-		width: 25%;
-	}
-
-	.contact {
-		background-color: #F0F0F0;
-		margin-left: auto;
-		margin-right: auto;
-		width: 40%;
-	}
-
-	.form-control {
-		margin: 1% 3% 1% 3%;
-	}
-
-	footer {
-		margin: 5% 25% 0 25%;
-	}
-	
-	.note {
-		display: inline-block;
-		margin-top: 20px;
-		margin-left: 1%;
-	}
-
-	.icons{
-		width: 32px;
-		margin-bottom: 3%;
-	}
-
-	.social {
-		float: right;
-		display: inline-block;
-	}
-
-	.logo {
-		width: 48px;
-	}
-
+.send {
+  background-color: #F0F0F0;
+  padding: 1.5%;
+  margin: 10% auto;
+  width: 90%;
 }
+@media screen and (min-width: 568px) {
+  .send {
+    width: 60%;
+    margin: 0 auto 5% auto;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .send {
+    width: 40%;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .send {
+    width: 30%;
+  }
+}
+@media screen and (min-width: 1900px) {
+  .send {
+    width: 20%;
+    padding: 1%;
+  }
+}
+.send .form-control {
+  margin: 1% 3% 1% 3%;
+  width: 94%;
+}
+@media screen and (min-width: 568px) {
+  .send .form-control {
+    width: 100%;
+  }
+}
+.send .submit {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  width: 25%;
+}
+
+.social {
+  padding: 5% 18% 10% 18%;
+  text-align: center;
+}
+@media screen and (min-width: 568px) {
+  .social {
+    padding: 0;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .social {
+    padding: 0 0 2% 0;
+  }
+}
+
+.logo {
+  width: 25%;
+}
+@media screen and (min-width: 568px) {
+  .logo {
+    width: 48px;
+  }
+}
+
+.main-center {
+  padding-top: 3%;
+}
+@media screen and (min-width: 1024px) {
+  .main-center {
+    margin: 0% 10% 0% 10%;
+    padding-top: 1%;
+    background-color: #E8F8F5;
+  }
+}
+@media screen and (min-width: 1280px) {
+  .main-center {
+    margin: 0% 10% 0% 10%;
+  }
+}
+.main-center #party {
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+.main-center .work {
+  width: 90%;
+  text-align: center;
+  margin: auto;
+}
+@media only screen and (min-width: 768px) {
+  .main-center .work {
+    margin-top: -5%;
+  }
+}
+@media only screen and (min-width: 992px) {
+  .main-center .work {
+    margin-top: -5%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

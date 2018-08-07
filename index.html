@@ -13,6 +13,9 @@
 	<!-- Animate scrolling and arrow for going back to the top -->
 	<script type="text/javascript" src="js/animate.js"></script>
 	<!-- Medium articles JSON feed and parsing scriptt (clean up HTML tags)-->
+	<script src="js/medium.js"></script>
+	<script src="js/menu.js"></script>
+	<script src="js/resume.js"></script>
 	<script type="text/javascript" src="js/medium.js"></script>
 </head>
 
@@ -26,80 +29,108 @@
 	<!-- Navigation bar -->
 		<ul class="nav nav-pills">
 		    <li class="nav-item">
-		    	<a class="nav-link active" href="#about">Home</a>
+		    	<a class="nav-link" href="#" id="Home">Home</a>
 		    </li>
 		    <li class="nav-item">
-		    	<a class="nav-link" href="#work">Projects</a>
+		    	<a class="nav-link" href="#" id="Resume">Resume</a>
 		    </li>
 		    <li class="nav-item">
-		    	<a class="nav-link" href="#contact">Contact</a>
+		    	<a class="nav-link" href="#" id="Contact">Contact</a>
+		    </li>
+		    <li class="nav-item">
+		    	<a class="nav-link" href="#" id="Blog">Blog</a>
 		    </li>
 		</ul>
 	</nav>
 
-	<!-- About section -->
-	<div class="main-center">
-		<article>
-				<h2 id="h2-top">About</h2>
-			<div class="row">
-				<div class="about">
-					<p>Product manager by day, web developer by night. I'm learning how to make web apps during my #100DaysOfCode challenge. You can follow my progress on Twitter <a href="https://twitter.com/muxin_li">@muxin_li</a></p></div>
-				<div class="avatar">
-					<img src="static/Avatar.png" class="img-fluid photo" alt="A person's face should be here. They lost their photo. Oops.">
+	<!-- 	Back to the top arrow; hidden until scroll is over 200 px		 -->
+	<a href="#banner"><div class="up-arrow"><p>^</p></div></a>
+
+	<!-- Portfolio -->
+	<div id="portfolio">
+	
+		<!-- About section -->
+		<a href="#totw"><div class="panel" id="sw"><p>Web + SW Development</p></div></a>
+		<a href="#strategy"><div class="panel" id="biz"><p>Strategy + Analysis</p></div></a>
+		<a href="#prototype"><div class="panel" id="ux"><p>UX + Product Management</p></div></a>
+
+		<article id ="totw">
+			<section class="projects">
+				<h3>Web and Software Development</h3>
+				<img src="static/totw.png" id="app">
+				<br>
+				<p id="appinfo">An app to keep track of your cooking in the game Breath of the Wild. Made with JavaScript, jQuery, and JSON.</p>
+				<br>			
+			    <div id="url"><a href="https://shrouded-earth-77506.herokuapp.com/">Go to the app.</a></div>
+			
+			</section>
+
+			<section>
+				<img src="static/responsive.gif">
+				<div class="takeaway">
+					<h4>Responsive design</h4>
+					<p>Layout adapts to screen sizes. SASS used to simplify media queries in CSS.</p>
 				</div>
-			</div>
+			</section>
+
+			<section>
+				<img src="static/search.gif">
+				<div class="takeaway">
+					<h4>Search and filter</h4>
+					<p>Find a recipe using search and filter options. Used JavaScript, jQuery, JSON, and HTML DOM methods.</p>
+				</div>
+			</section>
+
+			<section>
+				<img src="static/store.gif">
+				<div class="takeaway">
+					<h4>Remember user actions</h4>
+					<p>Stores whether recipes have been cooked. HTML5 localStorage used for light-weight data storage.</p>
+				</div> 
+			</section>
+
 		</article>
 
-		<article id="work">
-			<!-- 	Back to the top arrow; hidden until scroll is over 200 px		 -->
-			<a href="#banner" style="text-decoration: none"><div class="up-arrow">^</div></a>
-	
-			<!-- Projects by name and description -->
-			<h2>Projects</h2>
-			<div class="row">
-			
-			<!-- Do not change blog section. JSON and jQuery actions are going on. -->
-			
-			<section id="blog" class="projects">
-				<img src="#" id="blogImage" class="preview img-fluid rounded">
-				<h3></h3>
-				<p></p>
-				<div class="read">
-					<a id="blogURL" href="#">Read more...</a></div>
-			</section>
+		<article id="strategy">
+			<h3>Business Strategy and Analysis</h3>
 
-			<section class="projects">
-				<img src="https://nintendowire.com/wp-content/uploads/2016/09/Banner-Zelda-BreathOfTheWild-Cooking.jpg" class="preview img-fluid rounded">
-				<h3>Taste of the Wild</h3>
-				<p>A coding project inspired by Zelda; TBD.</p>
-				<div class="read">
-					<a href="#">Read more...</a></div>
-			</section>
-			</div>			
-			<!-- Contact section -->
 			<section>
-				<h2 id="contact">Contact me</h2>
-				<div class="contact rounded">
-					<form class="form-group row" method="POST" action="https://formspree.io/lesolea@gmail.com">
-					    <div class="col-sm-11">
-					   		<input type="text" class="form-control" name="name" placeholder="Name" /><br>
-						</div>
-					    <div class="col-sm-11">
-						   <input type="email" class="form-control" name="email" placeholder="Email (optional)" /><br>
-						</div>
-						<div class="col-sm-11">
-						   <textarea class="form-control" name="message" placeholder="Message (if offering web projects, include contact info)" /></textarea>
-						   <input type="hidden" name="_subject" value="New message!" />
-						   <input type="text" name="_gotcha" style="display:none" />
-						   <input type="hidden" name="_next" value="https://muxinli.github.io/thank_you.html" />
-						</div>
-						<!-- Send button -->
-						<button type="submit" class="submit btn btn-success">Submit</button>
-						
-					</form>
+				<h4>"Should we integrate this feature?"</h4>
+				<div class="takeaway">
+					<p>Analyze market data and determine the value of adding a new feature.</p>
+					<p>Determined feature was a poor market fit for product's target segment and not a core value proposition to warrant the heavy upfront investment. Saved over $800K in development costs.</p>
 				</div>
 			</section>
+			
+			<section>
+				<h4>"How do we attract new clients?"</h4>
+				<div class="takeaway">
+					<p>Identify value proposition of company's services to key decision makers of client companies.</p>
+					<p>Client decision makers must evaluate ROI before investing in new services. Analyzed previous client projects for impact of outcomes to communicate to business stakeholders. Was able to quantify a substantial impact, in which a major client saved over 20% in support call center costs, as a result of web development services.</p>
+				</div>
+			</section>
+		
+		</article>
 
+		<article id="prototype">
+			<h3>Design and Product Management</h3>
+			
+			<section>
+				<img src="static/EC website.png">
+				<div class="takeaway">
+					<h4>Early prototype of a product website</h4>
+					<p>Made with PowerPoint. New positioning for product family required rethinking of online user experience and more integration with other digital assets.</p>
+				</div>
+			</section>
+			
+			<section>
+				<img src="static/wireframe.png">
+				<div class="takeaway">
+					<h4>Wireframe of a website</h4>
+					<p>Made with Mockflow.</p>
+				</div>
+			</section>
+		
 		</article>
 
 		<footer>
@@ -109,16 +140,153 @@
 				<img src="static/coffee.png" class="d-inline-block icons">
 				<p class="d-inline-block"> + </p>
 				<img src="static/heart.png" class="d-inline-block icons">
-				<p class="d-inline-block"> by Muxin Li</p>
-			</div>
-			<!-- GitHub, LinkedIn accounts go here -->
-			<div class="social">
-				<a href="https://github.com/muxinli"><img src="static/github.png" class="logo"></a>
-				<a href="https://www.linkedin.com/in/muxinli/"><img src="static/linkedin.png" class="logo"></a>
-				<a href="https://twitter.com/muxin_li"><img src="static/twitter.png" class="logo"></a>
+				<p class="d-inline-block">  by Muxin Li</p>
 			</div>
 		</footer>
 	</div>
+
+	<!--	Resume	 -->
+	<article id="resume">
+		<a href="static/Muxin Li.pdf" target="_blank" id="PDF"><button type="button" class="btn btn-primary">PDF Summary</button></a>
+		<h5>Click images to show/hide details</h5>
+
+		<span id="code"><img src="static/code.png"><h4>Web and Software Development</h4></span>
+		<!-- https://iconscout.com/icon/code-280 -->
+		<div id="code2">
+			<div>
+				<img src="static/js.jpg"><p>JavaScript</p>
+				<img src="static/json.png"><p>JSON</p>
+				<img src="static/jquery.png"><p>jQuery</p>
+			</div>
+			<div>
+				<img src="static/html.png"><p>HTML</p>
+				<img src="static/css.png"><p>CSS</p>
+				<img src="static/sass.png"><p>SASS</p>
+			</div>
+		</div>
+		
+		<span id="pm"><img src="static/pm.png"><h4>Product Management</h4></span>
+		<div id="pm2">
+			<p><i>Hewlett Packard Enterprise<br>2016 – present</i></p>
+			<p>Analyze market needs for support services on Cloudline open standard servers.</p>
+			<p>Manage product lifecycle management and strategy for Easy Connect product family.</p>
+			<p>Prioritize features backlog, identify new opportunities, and maintain roadmap.</p>
+			<p>Coordinate launch process with engineering and management.</p>
+			<p>Prototype new product landing pages and develop a consistent user experience in collaboration with web development teams.</p>
+			<p>2017 HPE Rock Star recognition for contributions to HPE Servers business.</p>
+			<p>Pragmatic Marketing PMC Level III: Certified for skill in market-driven product strategies, roadmaps, user stories, and personas.</p>
+		</div>
+
+		<span id="analytics"><img src="static/analytics.png"><h4>Analytics and Marketing</h4></span>
+		<!-- Analytics icon <div>Icons made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+		<div id="analytics2">
+			<p><i>Poetic Systems<br>2015</i></p>
+				<p>Ran A/B tests on Google Ads, used results to lower campaign cost by 63%, and increase total click count and impressions by 31.8% and 213.8%.</p>
+				<p>Developed data tracking on websites using Google Tag Manager, Google Analytics, and Drupal CMS.</p>
+				<p>Quantified business value of services to attract new clients.</p>
+
+			<p><i>BMC Software<br>2014 – 2015</i></p>
+				<p>Defined and ran social media strategy. Yielded over 10,000 impressions and increased content views by 123%.</p>
+
+			<p><i>Sushi Yan<br>2011 – 2013</i></p>
+				<p>Organized and ran marketing events.</p>
+
+			<p><i>Locatal<br>2009 – 2011</i></p>
+				<p>Drafted business proposal for Mercedes Benz</p> 
+				<p>Consulted on company's marketing strategy for Western markets.</p>
+		</div>
+
+		<span id="design"><img src="static/design.png"><h4>UX and Writing</h4></span>
+		<!-- Design icon <div>Icons made by <a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai">Nhor Phai</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
+		<div id="design2">
+			<p><i>Hewlett Packard Enterprise<br>2016 – present</i></p>
+				<p>Prototype new product landing pages and develop a consistent user experience in collaboration with web development teams.</p>
+
+			<p><i>Sushi Yan<br>2011 – 2013</i></p>
+				<p>Designed and proposed new website layout for better user experience.</p>
+			
+			<p><i>All-China Women's Federation<br>2009 – 2011</i></p>
+				<p>Guided redesign of online magazine for better user experience; received positively by users.</p>
+				<p>Wrote press releases, created and edited articles for the Women of China magazine.</p>
+			
+			<p><i>Locatal<br>2009 – 2011</i></p>
+				<p>Created and edited translations for China Central Television,​ Giant Entertainment China, and China Ministry of Environmental Protection.</p>
+		</div>
+	
+		<img src="static/Rice-logo.png" id="rice">
+		<div id="rice2">
+			<p><i>Master of Business Administration<br>Rice University, Jones Graduate School Of Business<br>2013 – 2015</i></p>
+				<p>NASA/GM Robo-Glove go-to-market and business plan. Product officially announced in 2016.</p>
+				<p>Go-to-market plan for Cameron in 2014 national marketing case competition. Marketing analysis, strategy, positioning, pricing, financial planning, and go-to-market strategy presented to Cameron executives.</p>
+				<p>Waste Management plant profitability analysis and proposal for improving recycling habits.</p>
+				<p>Full scholarship recipient for leadership, academic, and professional achievement.</p>
+				<p>Greater Houston Business Ethics Roundtable Scholarship for ethical leadership.</p>
+				<p>External Relations Lead of Rice startup accelerator OwlSpark and a Net Impact Officer.</p>
+		</div>
+
+		<img src="static/UVA-logo.png" id="uva">
+		<div id="uva2">
+			<p><i>Bachelor of Anthropology<br>University Of Virginia<br>2005 – 2009</i></p>
+				<p>Conducted field research using primary and secondary methods, qualitative and quantitative data analysis, to investigate the socioeconomic impacts of waterfront development in Durban, South Africa.</p>
+				<p>Led live behavioral group experiments for psychology research department.</p>
+				<p>Analyzed dialogue patterns to identify personas in group power dynamics.</p>
+		</div>
+		<br>
+
+	</article>
+
+	<!-- Contact section -->
+	<article id="contact">
+		<h3>Connect with me</h3>
+		<!-- GitHub, LinkedIn, Twitter accounts go here -->
+		<div class="social">
+			<a href="https://github.com/muxinli"><img src="static/github.png" class="logo"></a>
+			<a href="https://www.linkedin.com/in/muxinli/"><img src="static/linkedin.png" class="logo"></a>
+			<a href="https://twitter.com/muxin_li"><img src="static/twitter.png" class="logo"></a>
+		</div>
+		<h3>Send a message</h3>
+		<div class="send rounded">
+			<form class="form-group row" method="POST" action="https://formspree.io/lesolea@gmail.com">
+				<div class="col-sm-11">
+					<input type="text" class="form-control" name="name" placeholder="Name" /><br>
+				</div>
+				<div class="col-sm-11">
+				   <input type="email" class="form-control" name="email" placeholder="Email" /><br>
+				</div>
+				<div class="col-sm-11">
+				   <textarea class="form-control" name="message" placeholder="Message" /></textarea>
+				   <input type="hidden" name="_subject" value="New message!" />
+				   <input type="text" name="_gotcha" style="display:none" />
+				   <input type="hidden" name="_next" value="https://muxinli.github.io/thank_you.html" />
+				</div>
+				<!-- Send button -->
+				<button type="submit" class="submit btn btn-success">Submit</button>
+
+			</form>
+		</div>
+	</article>
+
+	<!-- Blog -->
+	<article id="blogSection">
+		<section id="blog">
+			<!-- <img src="#" id="blogImage" class="preview img-fluid rounded"> -->
+			<h3></h3>
+			<p></p>
+			<div class="read">
+				<a id="blogURL" href="#">Read more...</a></div>
+		</section>
+
+		<section id="blog2">
+			<img src="#" id="blog2Image" class="preview img-fluid rounded">
+			<h3></h3>
+			<p></p>
+			<div class="read">
+				<a id="blog2URL" href="#">Read more...</a></div>
+		</section>
+
+		<a href="https://medium.com/@m.muxin.li"><h4>See all my stories on Medium</h4></a><br>
+	</article>
+
 </body>
 
 </html>
