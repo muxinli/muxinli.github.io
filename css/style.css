@@ -59,7 +59,7 @@ a:hover {
     height: 28vh;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1900px) {
   .panel {
     height: 29vh;
   }
