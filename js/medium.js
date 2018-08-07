@@ -1,15 +1,17 @@
-/* Requests JSON file from Medium feed and converts it to a text; just as a precaution. Using rss2json online converter to convert the feed to JSON. */
+/* Requests JSON file from Medium feed using rss2json online converter. As a precaution, converting JSON to a text to turn into a JS object in later step. */
 var requestURL = 'https://api.rss2json.com/v1/api.json?rss_url=https%3A%2F%2Fmedium.com%2Ffeed%2F%40m.muxin.li';
 var request = new XMLHttpRequest();
 request.open('GET', requestURL);
 request.responseType = 'text';
 request.send();
     
-/* Checks request is successfully loaded before running additional commands. Parses text into JSON and runs the two functions to pull image, title, description, and updates URL. */
+/* Checks request is successfully loaded before running additional commands. Parses the returned JSON text format into a JS object, which is assigned to variable medium, and then runs functions on the JS object medium to pull image, title, description, and updates URL. */
 request.onload = function() {
+	//Set variable to the text string retrieved from from the JSON text response command, to be used for JS object conversion. Not necessary, just cleaner to read.
 	var mediumText = request.response;
-	//Takes the text we pulled from JSON and turns it into a usable JavaScript object - normally you can use <request.responseType = 'json';> and skip  few lines of code but it's part of the precaution. The JS object inherits all of the JSON's parameters and values. What's weird is that you seem to be able to access this JS object using whatever name you want, instead of declaring a variable first?
+	//Takes the text we pulled from JSON and turns it into a usable JavaScript object that we're calling medium. The JS object medium inherits all of the JSON's parameters and values. Normally you can use <request.responseType = 'json';> and skip a few lines of code, but it's just a precaution since the JSON came from an external source. 
 	var medium = JSON.parse(mediumText);
+	//Runs functions on the object medium, which stored all our JSON (see below for the functions being defined).
 	imgTitle(medium);
 	description(medium);
 	url(medium);
