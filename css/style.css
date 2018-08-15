@@ -45,7 +45,7 @@ a:hover {
 
 .panel {
   width: 100vw;
-  height: 25vh;
+  height: 24vh;
   display: flex;
   align-items: center;
 }
@@ -56,12 +56,12 @@ a:hover {
 }
 @media screen and (min-width: 1024px) {
   .panel {
-    height: 28vh;
+    height: 27vh;
   }
 }
 @media screen and (min-width: 1900px) {
   .panel {
-    height: 29vh;
+    height: 28vh;
   }
 }
 .panel p {
@@ -120,7 +120,7 @@ footer {
 }
 @media screen and (min-width: 568px) {
   .nav li {
-    width: 25vw;
+    width: 20vw;
   }
 }
 

@@ -74,7 +74,7 @@ a {
 
 .panel {
   width: 100vw;
-  height: 25vh;
+  height: 24vh;
   display: flex;
   align-items: center;
 
@@ -83,11 +83,11 @@ a {
   }
 
   @media screen and (min-width: $break-tablet-wide) {
-    height: 28vh;
+    height: 27vh;
   }
 
   @media screen and (min-width: $break-large) {
-    height: 29vh;
+    height: 28vh;
   }
 
   p{
@@ -147,7 +147,7 @@ footer {
     text-align: center;
 
     @media screen and (min-width: $break-phone) {
-      width: 25vw;
+      width: 20vw;
     }
   }
 }
