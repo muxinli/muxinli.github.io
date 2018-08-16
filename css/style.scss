@@ -294,7 +294,7 @@ footer {
     }
 
     @media screen and (min-width: $break-desktop) {
-      margin: 2% 5% 2% 25%;
+      margin: 1% 5% 2% 25%;
     }
   }
 
@@ -324,6 +324,13 @@ footer {
       text-align: center;
     }
   }
+
+  #pm2, #analytics2, #design2, #rice2, #uva2 {
+  	@media screen and (min-width: $break-desktop) {
+  		width: 60%;
+  		margin: auto;
+  	}
+  }
   
   h4 {
     display: inline-block;
@@ -332,8 +339,8 @@ footer {
     text-align: center;
 
     @media screen and (min-width: $break-phone) {
-      width: 60%;
-      text-align: left;
+		width: 60%;
+		text-align: left;
     }
   }
 
@@ -347,7 +354,11 @@ footer {
     width: 90%;
 
     @media screen and (min-width: $break-tablet) {
-      margin: 2% auto;
+    	margin: 2% auto;
+    }
+
+    @media screen and (min-width: $break-desktop) {
+    	margin: 0 auto 1% auto;
     }
   }
 
@@ -367,6 +378,7 @@ footer {
 
     @media screen and (min-width: $break-desktop) {
       width: 20%;
+      margin: 5% auto 2% auto;
     }
   }
 }

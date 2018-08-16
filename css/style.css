@@ -259,7 +259,7 @@ footer {
 }
 @media screen and (min-width: 1280px) {
   #resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
-    margin: 2% 5% 2% 25%;
+    margin: 1% 5% 2% 25%;
   }
 }
 #resume #code2 {
@@ -286,6 +286,12 @@ footer {
   vertical-align: middle;
   text-align: center;
 }
+@media screen and (min-width: 1280px) {
+  #resume #pm2, #resume #analytics2, #resume #design2, #resume #rice2, #resume #uva2 {
+    width: 60%;
+    margin: auto;
+  }
+}
 #resume h4 {
   display: inline-block;
   width: 55%;
@@ -311,6 +317,11 @@ footer {
     margin: 2% auto;
   }
 }
+@media screen and (min-width: 1280px) {
+  #resume p {
+    margin: 0 auto 1% auto;
+  }
+}
 #resume #rice, #resume #uva {
   width: 250px;
   display: block;
@@ -330,6 +341,7 @@ footer {
 @media screen and (min-width: 1280px) {
   #resume #rice, #resume #uva {
     width: 20%;
+    margin: 5% auto 2% auto;
   }
 }
 
