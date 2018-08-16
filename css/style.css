@@ -261,6 +261,9 @@ footer {
   #resume #code img, #resume #pm img, #resume #analytics img, #resume #design img {
     margin: 1% 5% 2% 25%;
   }
+  #resume #code img #code img, #resume #pm img #code img, #resume #analytics img #code img, #resume #design img #code img {
+    margin: 1% 5% 0% 25%;
+  }
 }
 #resume #code2 {
   text-align: center;
@@ -268,7 +271,7 @@ footer {
 @media screen and (min-width: 720px) {
   #resume #code2 {
     width: 50%;
-    margin: auto;
+    margin: 0 auto 2% auto;
   }
 }
 #resume #code2 div {

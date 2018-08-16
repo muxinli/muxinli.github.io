@@ -295,6 +295,9 @@ footer {
 
     @media screen and (min-width: $break-desktop) {
       margin: 1% 5% 2% 25%;
+      #code img {
+      	margin: 1% 5% 0% 25%;
+      }
     }
   }
 
@@ -303,7 +306,7 @@ footer {
 
     @media screen and (min-width: $break-tablet) {
       width: 50%;
-      margin: auto;
+      margin: 0 auto 2% auto;
     }
 
     div {
