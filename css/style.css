@@ -148,6 +148,11 @@ footer {
 #portfolio #url {
   margin: 2% auto 5% auto;
 }
+@media screen and (min-width: 568px) {
+  #portfolio #url {
+    font-size: 150%;
+  }
+}
 #portfolio #ux, #portfolio #totw, #portfolio #strategy, #portfolio #prototype {
   margin-bottom: 20%;
 }

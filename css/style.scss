@@ -176,6 +176,10 @@ footer {
 
   #url {
     margin: 2% auto 5% auto;
+
+    @media screen and (min-width: $break-phone) {
+      font-size: 150%;
+    }
   }
 
   #ux, #totw, #strategy, #prototype {
